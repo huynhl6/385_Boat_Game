@@ -1,0 +1,1739 @@
+﻿Log file open, 11/20/18 22:10:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: okay
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.268744
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.875s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.21-03.10.45:107][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.21-03.10.45:107][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.21-03.10.45:186][  0]LogHAL: Display: Platform has ~ 16 GB [17105747968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.21-03.10.45:186][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.21-03.10.45:186][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.21-03.10.45:187][  0]LogInit: Computer: MUTHAFKNPC
+[2018.11.21-03.10.45:187][  0]LogInit: User: lochu
+[2018.11.21-03.10.45:187][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.21-03.10.45:187][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2018.11.21-03.10.45:188][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.21-03.10.45:188][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.21-03.10.45:188][  0]LogMemory: Process Physical Memory: 101.21 MB used, 101.21 MB peak
+[2018.11.21-03.10.45:188][  0]LogMemory: Process Virtual Memory: 92.46 MB used, 92.46 MB peak
+[2018.11.21-03.10.45:188][  0]LogMemory: Physical Memory: 11052.54 MB used,  5260.77 MB free, 16313.31 MB total
+[2018.11.21-03.10.45:188][  0]LogMemory: Virtual Memory: 4637.00 MB used,  5260.77 MB free, 134217728.00 MB total
+[2018.11.21-03.10.45:222][  0]LogInit: Using OS detected language (en-US).
+[2018.11.21-03.10.45:222][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.21-03.10.45:223][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.21-03.10.45:559][  0]LogStreaming: Display: Took  0.338s to InitEngineTextLocalization.
+[2018.11.21-03.10.45:560][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.21-03.10.45:590][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.21-03.10.45:590][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.21-03.10.45:790][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.21-03.10.45:790][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.21-03.10.45:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.11.21-03.10.45:950][  0]LogD3D11RHI:       4043/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.21-03.10.45:952][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.21-03.10.45:952][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.21-03.10.45:952][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.21-03.10.45:959][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.21-03.10.45:959][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.21-03.10.45:959][  0]LogWindows: EnumDisplayDevices:
+[2018.11.21-03.10.45:959][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.11.21-03.10.45:959][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.11.21-03.10.45:960][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.21-03.10.45:960][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.21-03.10.45:960][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.21-03.10.45:960][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.11.21-03.10.45:960][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2018.11.21-03.10.45:960][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2018.11.21-03.10.45:960][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.11.21-03.10.45:994][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.21-03.10.46:011][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.21-03.10.46:061][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../WORK/385/project/385_Boat_Game/okay/Intermediate/Shaders/WorkingDirectory/17040/).
+[2018.11.21-03.10.46:062][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lochu/AppData/Local/Temp/UnrealShaderWorkingDir/EBB60E8344452D382208E297465B78D2/'.
+[2018.11.21-03.10.46:343][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.21-03.10.46:353][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.21-03.10.46:364][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.21-03.10.46:374][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.21-03.10.46:384][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.21-03.10.46:395][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.21-03.10.46:407][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.21-03.10.46:417][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.21-03.10.46:423][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-03.10.46:490][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.21-03.10.46:546][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.21-03.10.46:546][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.21-03.10.46:589][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.21-03.10.46:589][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.21-03.10.46:602][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.21-03.10.46:613][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.21-03.10.46:623][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.21-03.10.46:635][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.21-03.10.46:643][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.21-03.10.46:643][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.21-03.10.46:680][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.21-03.10.46:680][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.21-03.10.46:680][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.21-03.10.47:289][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../WORK/385/project/385_Boat_Game/okay/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../WORK/385/project/385_Boat_Game/okay/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.21-03.10.47:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.21-03.10.47:351][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.21-03.10.47:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lochu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.21-03.10.47:365][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.21-03.10.47:365][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.21-03.10.47:380][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.21-03.10.47:382][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.21-03.10.47:382][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.21-03.10.47:451][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.11.21-03.10.47:729][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.21-03.10.47:769][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.21-03.10.47:771][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.21-03.10.47:771][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.21-03.10.47:771][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.21-03.10.47:771][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.21-03.10.47:859][  0]LogNetVersion: okay 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1209445407)
+[2018.11.21-03.10.48:482][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.236583 seconds
+[2018.11.21-03.10.48:487][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.21-03.10.48:487][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.21-03.10.48:487][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.21-03.10.49:272][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.21-03.10.49:285][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.21-03.10.49:457][  0]SourceControl: Source control is disabled
+[2018.11.21-03.10.49:457][  0]SourceControl: Source control is disabled
+[2018.11.21-03.10.49:458][  0]SourceControl: Source control is disabled
+[2018.11.21-03.10.49:459][  0]SourceControl: Source control is disabled
+[2018.11.21-03.10.49:717][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.21-03.10.49:844][  0]LogOcInput: OculusInput pre-init called
+[2018.11.21-03.10.49:895][  0]LogEngine: Initializing Engine...
+[2018.11.21-03.10.49:896][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.21-03.10.49:898][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.21-03.10.49:898][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.21-03.10.49:898][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.21-03.10.49:898][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.21-03.10.50:077][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.21-03.10.50:085][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.21-03.10.50:118][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.10.50:135][  0]LogInit: FAudioDevice initialized.
+[2018.11.21-03.10.50:135][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.21-03.10.50:469][  0]LogDerivedDataCache: Saved boot cache 0.33s 71MB C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.21-03.10.50:490][  0]LogInit: Texture streaming: Enabled
+[2018.11.21-03.10.50:516][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.21-03.10.50:530][  0]LogInit: Transaction tracking system initialized
+[2018.11.21-03.10.50:548][  0]BlueprintLog: New page: Editor Load
+[2018.11.21-03.10.50:629][  0]LocalizationService: Localization service is disabled
+[2018.11.21-03.10.50:850][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.21-03.10.50:850][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.21-03.10.50:850][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.21-03.10.50:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.21-03.10.50:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.21-03.10.50:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.21-03.10.50:850][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.21-03.10.50:940][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/' took 0.03s
+[2018.11.21-03.10.50:940][  0]SourceControl: Source control is disabled
+[2018.11.21-03.10.51:073][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-03.10.51:074][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.21-03.10.57:538][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.11.21-03.10.57:539][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-03.10.57:541][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-03.10.57:546][  0]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.21-03.10.57:602][  0]LightingResults: New page: Lighting Build
+[2018.11.21-03.10.57:604][  0]MapCheck: New page: Map Check
+[2018.11.21-03.10.57:604][  0]LightingResults: New page: Lighting Build
+[2018.11.21-03.11.01:332][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.11.21-03.11.14:301][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.21-03.11.14:328][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.21-03.11.14:377][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.718ms to complete.
+[2018.11.21-03.11.14:377][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 16.831
+[2018.11.21-03.11.14:486][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.11.14:495][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.11.14:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.11.14:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.11.14:518][  0]LogCollectionManager: Loaded 0 collections in 0.000746 seconds
+[2018.11.21-03.11.14:577][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Saved/Collections/' took 0.01s
+[2018.11.21-03.11.14:577][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/Developers/lochu/Collections/' took 0.01s
+[2018.11.21-03.11.14:577][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/Collections/' took 0.01s
+[2018.11.21-03.11.14:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.21-03.11.14:587][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2574 classes and 606 folders.
+[2018.11.21-03.11.14:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.21-03.11.15:362][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.21-03.11.15:409][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.21-03.11.15:476][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.21-03.11.15:501][  0]LogSlate: Took 0.016518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.21-03.11.15:656][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2018.11.21-03.11.15:889][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.21-03.11.15:889][  0]LogLoad: (Engine Initialization) Total time: 33.38 seconds
+[2018.11.21-03.11.15:889][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.21-03.11.15:906][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.21-03.11.15:907][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.11.21-03.11.15:907][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2018.11.21-03.11.15:907][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2018.11.21-03.11.15:907][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2018.11.21-03.11.15:926][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.21-03.11.15:967][  0]LogSlate: Took 0.013549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.21-03.11.16:036][  1]LogAssetRegistry: Asset discovery search completed in 28.6074 seconds
+[2018.11.21-03.11.16:039][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.21-03.11.16:039][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
+[2018.11.21-03.11.17:326][  5]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.21-03.11.18:852][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.11.20:377][128]LogLinker: Warning: Can't find file '/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset'
+[2018.11.21-03.11.40:888][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.12.05:567][295]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.12.05:572][295]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/test.test
+[2018.11.21-03.12.05:606][295]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.21-03.12.05:606][295]LightingResults: New page: Lighting Build
+[2018.11.21-03.12.05:607][295]LoadErrors: New page: Loading map: test.umap
+[2018.11.21-03.12.05:609][295]MapCheck: New page: Map Check
+[2018.11.21-03.12.05:609][295]LightingResults: New page: Lighting Build
+[2018.11.21-03.12.05:637][295]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.21-03.12.05:679][295]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.21-03.12.05:722][295]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.837ms to complete.
+[2018.11.21-03.12.05:722][295]LogFileHelpers: Loading map 'test' took 0.117
+[2018.11.21-03.12.08:272][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.12.08:389][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.12.08:470][607]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testA17896A74D931DE03B7EAA9D11590C33.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.12.08:493][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.12.08:509][607]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataF06AE64F4C8F4D3BDB9F1B9F31A0728F.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.12.20:033][729]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\rigged_tug_Final_Model.FBX)
+[2018.11.21-03.12.20:087][729]LogFbx: Loading FBX Scene from D:\WORK\385\project\rigged_tug_Final_Model.FBX
+[2018.11.21-03.12.20:452][729]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-03.12.22:347][729]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-03.12.22:365][729]LogFbx: =================================================
+[2018.11.21-03.12.22:365][729]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-03.12.22:365][729]LogFbx: 	Total Deformer Count -1077529008.
+[2018.11.21-03.12.22:365][729]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.21-03.12.22:365][729]LogFbx: =================================================
+[2018.11.21-03.12.22:365][729]LogFbx: 	Attribute () Type (4).
+[2018.11.21-03.12.22:365][729]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-03.12.22:366][729]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-03.12.22:366][729]LogFbx: =================================================
+[2018.11.21-03.12.22:366][729]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-03.12.22:366][729]LogFbx: 	Total Deformer Count -1077529008.
+[2018.11.21-03.12.22:366][729]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.21-03.12.22:366][729]LogFbx: =================================================
+[2018.11.21-03.12.22:366][729]LogFbx: 	Attribute () Type (4).
+[2018.11.21-03.12.22:366][729]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-03.12.22:366][729]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-03.12.22:366][729]LogFbx: Valid bind pose for Pose (BIND_POSES) - bottom_tug001
+[2018.11.21-03.12.23:086][729]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 2
+[2018.11.21-03.12.50:881][729]LogSkeletalMesh: Section 0: 309809 vertices, 5 active bones
+[2018.11.21-03.12.50:939][729]LogSkeletalMesh: Section 0: Material=0, 483622 triangles
+[2018.11.21-03.12.50:947][729]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.12.51:709][729]LogSkeletalMesh: Built Skeletal Mesh [0.76s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.12.51:808][729]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton'
+[2018.11.21-03.12.51:808][729]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton'
+[2018.11.21-03.12.51:811][729]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset'
+[2018.11.21-03.12.51:811][729]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset'
+[2018.11.21-03.12.51:915][729]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.12.52:659][729]LogSkeletalMesh: Built Skeletal Mesh [0.79s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.12.52:748][729]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.12.53:521][729]LogSkeletalMesh: Built Skeletal Mesh [0.80s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.12.55:425][750]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset
+[2018.11.21-03.12.55:431][750]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
+[2018.11.21-03.12.55:433][750]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.11.21-03.12.55:650][750]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.12.55:681][750]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.11.21-03.12.55:945][750]LogSlate: Took 0.014407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.21-03.12.55:997][750]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.11.21-03.12.56:015][751]LogRenderer: Reallocating scene render targets to support 1208x776 Format 10 NumSamples 1 (Frame:1).
+[2018.11.21-03.12.59:703][ 76]LogRenderer: Reallocating scene render targets to support 1208x784 Format 10 NumSamples 1 (Frame:337).
+[2018.11.21-03.12.59:986][ 95]LogRenderer: Reallocating scene render targets to support 1208x928 Format 10 NumSamples 1 (Frame:359).
+[2018.11.21-03.13.00:484][140]LogSlate: Window 'rigged_tug_Final_Model_PhysicsAsset*' being destroyed
+[2018.11.21-03.13.01:987][286]LogSlate: Window 'rigged_tug_Final_Model_PhysicsAsset*' being destroyed
+[2018.11.21-03.13.09:673][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.13.11:800][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.11:801][413]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.42:230][990]Cmd: TRANSACTION UNDO
+[2018.11.21-03.13.42:230][990]LogEditorTransaction: Undo Add New Bodies
+[2018.11.21-03.13.42:315][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.13.42:315][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.42:351][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.43:584][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.13.48:644][691]Cmd: TRANSACTION UNDO
+[2018.11.21-03.13.48:644][691]LogEditorTransaction: Undo Reset All Collision
+[2018.11.21-03.13.48:731][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.13.48:731][691]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.48:765][691]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.13.50:129][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.14.05:003][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.14.16:060][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.14.24:274][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.14.41:440][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.14.53:680][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.15.13:480][635]Cmd: TRANSACTION UNDO
+[2018.11.21-03.15.13:480][635]LogEditorTransaction: Undo Move Element
+[2018.11.21-03.15.13:562][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.15.19:562][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.15.19:713][257]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAsBD3CBB774B1102B58ED5D8B08C61DAE9.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.15.28:328][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.15.41:764][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.18.19:026][957]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.21-03.18.20:478][957]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.18.21:216][957]LogSkeletalMesh: Built Skeletal Mesh [0.78s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.18.21:301][957]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.18.22:089][957]LogSkeletalMesh: Built Skeletal Mesh [0.81s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.18.28:318][ 98]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\rigged_tug_Final_Model.FBX)
+[2018.11.21-03.18.28:364][ 98]LogFbx: Loading FBX Scene from D:\WORK\385\project\rigged_tug_Final_Model.FBX
+[2018.11.21-03.18.28:735][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-03.18.32:439][ 98]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-03.18.32:461][ 98]LogFbx: =================================================
+[2018.11.21-03.18.32:461][ 98]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-03.18.32:461][ 98]LogFbx: 	Total Deformer Count 1099035920.
+[2018.11.21-03.18.32:461][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.21-03.18.32:461][ 98]LogFbx: =================================================
+[2018.11.21-03.18.32:461][ 98]LogFbx: 	Attribute () Type (4).
+[2018.11.21-03.18.32:461][ 98]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-03.18.32:461][ 98]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-03.18.32:461][ 98]LogFbx: =================================================
+[2018.11.21-03.18.32:461][ 98]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-03.18.32:461][ 98]LogFbx: 	Total Deformer Count 1099035920.
+[2018.11.21-03.18.32:461][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.21-03.18.32:461][ 98]LogFbx: =================================================
+[2018.11.21-03.18.32:461][ 98]LogFbx: 	Attribute () Type (4).
+[2018.11.21-03.18.32:461][ 98]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-03.18.32:461][ 98]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-03.18.32:462][ 98]LogFbx: Valid bind pose for Pose (BIND_POSES) - bottom_tug001
+[2018.11.21-03.18.33:168][ 98]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 2
+[2018.11.21-03.19.00:456][ 98]LogSkeletalMesh: Section 0: 309809 vertices, 5 active bones
+[2018.11.21-03.19.00:516][ 98]LogSkeletalMesh: Section 0: Material=0, 483622 triangles
+[2018.11.21-03.19.00:546][ 98]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.19.01:304][ 98]LogSkeletalMesh: Built Skeletal Mesh [0.78s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.19.01:456][ 98]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.19.02:236][ 98]LogSkeletalMesh: Built Skeletal Mesh [0.78s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.19.02:303][ 98]LogSkeletalMesh: Building Skeletal Mesh rigged_tug_Final_Model...
+[2018.11.21-03.19.03:028][ 98]LogSkeletalMesh: Built Skeletal Mesh [0.73s] /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.20.38:454][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.22.08:755][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/test' took 0.025
+[2018.11.21-03.22.08:759][ 34]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset] ([1] browsable assets)...
+[2018.11.21-03.22.08:779][ 34]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset]
+[2018.11.21-03.22.08:779][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset]
+[2018.11.21-03.22.08:806][ 34]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAs9316A27D4C294D5DC428D4AEDA69455E.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset_Auto1.uasset'
+[2018.11.21-03.22.08:809][ 34]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton] ([1] browsable assets)...
+[2018.11.21-03.22.08:809][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton]
+[2018.11.21-03.22.08:814][ 34]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_Skeleton_86EC2CA142FEFFEE52626EB7F2F76F5C.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton_Auto1.uasset'
+[2018.11.21-03.22.08:816][ 34]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vehicle/rigged/rigged_tug_Final_Model] ([1] browsable assets)...
+[2018.11.21-03.22.08:830][ 34]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model]
+[2018.11.21-03.22.08:830][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vehicle/rigged/rigged_tug_Final_Model]
+[2018.11.21-03.22.09:382][ 34]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_Auto15DFADC7A45EE51337048A18B6DC530E8.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Vehicle/rigged/rigged_tug_Final_Model_Auto1.uasset'
+[2018.11.21-03.22.09:384][ 34]LogFileHelpers: Auto-saving content packages took 0.628
+[2018.11.21-03.30.15:507][365]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset
+[2018.11.21-03.30.15:547][365]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.30.19:800][778]LogSlate: Window 'rigged_tug_Final_Model_PhysicsAsset*' being destroyed
+[2018.11.21-03.30.22:753][ 95]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.30.22:755][ 95]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-03.30.45:644][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.30.45:773][682]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAsDFDEFA1940AEC69DBEC25FA6ABF2A707.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.30.47:168][846]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAs11A39EB942A86E9D57BFFBA3A03AE3A3.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.30.54:058][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.30.54:187][556]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAsF81476EC42D3032554CF3CA9D6C5C9E9.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.31.02:825][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.31.14:758][211]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Vehicle/rigged/rigged_animBP.rigged_animBP
+[2018.11.21-03.31.14:890][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.31.15:344][211]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.11.21-03.31.16:112][211]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.21-03.31.23:255][922]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.21-03.31.25:751][188]LogBlueprint: Warning: Reparenting blueprint AnimBlueprint /Game/Vehicle/rigged/rigged_animBP.rigged_animBP from AnimInstance to VehicleAnimInstance...
+[2018.11.21-03.31.25:755][188]BlueprintLog: New page: Compile rigged_animBP
+[2018.11.21-03.31.34:734][203]BlueprintLog: New page: Compile rigged_animBP
+[2018.11.21-03.31.35:397][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicle/rigged/rigged_animBP" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_animBP.uasset" SILENT=true
+[2018.11.21-03.31.35:442][251]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_animBP374932A2498863C3E0A37CB6DB8CE037.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_animBP.uasset'
+[2018.11.21-03.32.04:149][907]BlueprintLog: New page: Compile rigged_animBP
+[2018.11.21-03.32.10:383][424]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAs734E3C1044857362E1AE81BE4B2B2167.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.32.11:984][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.32.12:043][600]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test8679CC6D4D3F90B272343F9611F1958B.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.32.12:067][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.32.12:082][600]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltData104A6A2243A48D71189AD294DCDB30D2.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.34.50:294][930]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.21-03.35.05:973][806]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/rigged_Actor.rigged_Actor
+[2018.11.21-03.35.08:842][ 53]LogSlate: Window 'rigged_Actor*' being destroyed
+[2018.11.21-03.35.19:521][294]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.21-03.35.22:321][625]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.21-03.35.22:321][625]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.11.21-03.35.32:498][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-03.35.47:943][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.35.48:043][125]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.35.48:696][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.35.48:727][167]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_ActorFD45CBDC4EFDACCA6C2BF0ABB7CB59F8.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.35.53:502][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.35.53:628][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.35.53:677][728]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testF1568C944C07C40074B82687FF08DF5B.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.35.53:706][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.35.53:717][728]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataB2B50E6E4E1C861B97D131BA0D8129CD.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.35.57:358][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.35.57:457][171]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.36.02:946][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.36.03:037][798]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.36.03:671][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.36.03:691][841]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor3B6F4F864EC8D60620A7C096CEDBCAE3.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.36.12:621][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.41.06:815][514]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.41.07:388][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.41.07:413][547]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor98391D7C46A2FB29AA667F887F70882B.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.42.16:336][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.42.22:839][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.42.28:869][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.42.58:248][309]LogMetaData: Removing '/Game/VehicleBP/rigged/backwheels_2.SKEL_backwheels_2_C' ref from Metadata '/Game/VehicleBP/NewFolder/backwheels_2.PackageMetaData'
+[2018.11.21-03.42.58:248][309]LogMetaData: Removing '/Game/VehicleBP/rigged/backwheels_2.backwheels_2_C' ref from Metadata '/Game/VehicleBP/NewFolder/backwheels_2.PackageMetaData'
+[2018.11.21-03.42.58:297][309]LogMetaData: Removing '/Game/VehicleBP/rigged/frontwheels_2.SKEL_frontwheels_2_C' ref from Metadata '/Game/VehicleBP/NewFolder/frontwheels_2.PackageMetaData'
+[2018.11.21-03.42.58:297][309]LogMetaData: Removing '/Game/VehicleBP/rigged/frontwheels_2.frontwheels_2_C' ref from Metadata '/Game/VehicleBP/NewFolder/frontwheels_2.PackageMetaData'
+[2018.11.21-03.42.58:359][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/backwheels_2" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/backwheels_2.uasset" SILENT=true
+[2018.11.21-03.42.58:364][309]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/backwheels_2111F039D400E2A5AEB0715B156E451B5.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/backwheels_2.uasset'
+[2018.11.21-03.42.58:371][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/frontwheels_2" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/frontwheels_2.uasset" SILENT=true
+[2018.11.21-03.42.58:375][309]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/frontwheels_24232E1E145CFBB2494838188EAD1196E.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/frontwheels_2.uasset'
+[2018.11.21-03.43.07:918][394]LogMetaData: Removing '/Game/VehicleBP/rigged/front.front_C' ref from Metadata '/Game/VehicleBP/rigged/frontwheels_2.PackageMetaData'
+[2018.11.21-03.43.07:918][394]LogMetaData: Removing '/Game/VehicleBP/rigged/front.SKEL_front_C' ref from Metadata '/Game/VehicleBP/rigged/frontwheels_2.PackageMetaData'
+[2018.11.21-03.43.07:979][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/front" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front.uasset" SILENT=true
+[2018.11.21-03.43.07:983][394]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/front9E284F7D41ECD38195EA0983ECA86364.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front.uasset'
+[2018.11.21-03.43.13:461][ 12]LogMetaData: Removing '/Game/VehicleBP/rigged/rear.rear_C' ref from Metadata '/Game/VehicleBP/rigged/backwheels_2.PackageMetaData'
+[2018.11.21-03.43.13:461][ 12]LogMetaData: Removing '/Game/VehicleBP/rigged/rear.SKEL_rear_C' ref from Metadata '/Game/VehicleBP/rigged/backwheels_2.PackageMetaData'
+[2018.11.21-03.43.13:523][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rear" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear.uasset" SILENT=true
+[2018.11.21-03.43.13:527][ 12]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rearEE331AD94B97820EFCA748B07768861A.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear.uasset'
+[2018.11.21-03.43.34:874][505]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.43.35:401][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.43.35:441][531]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_ActorFA6EFB29454A10360D0B67B41A7D8ACA.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.43.38:446][883]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/rear.rear
+[2018.11.21-03.43.47:219][876]LogEditorViewport: Clicking Background
+[2018.11.21-03.43.48:320][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.44.01:470][564]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.21-03.44.16:470][348]LogMetaData: Removing '/Game/VehicleBP/rigged/front_rig.front_rig_C' ref from Metadata '/Game/VehicleBP/rigged/front.PackageMetaData'
+[2018.11.21-03.44.16:470][348]LogMetaData: Removing '/Game/VehicleBP/rigged/front_rig.SKEL_front_rig_C' ref from Metadata '/Game/VehicleBP/rigged/front.PackageMetaData'
+[2018.11.21-03.44.16:532][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/front_rig" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset" SILENT=true
+[2018.11.21-03.44.16:536][348]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/front_rigEB58529C4F9767D5717F84BF258B5535.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset'
+[2018.11.21-03.44.21:701][930]LogMetaData: Removing '/Game/VehicleBP/rigged/rear_rig.rear_rig_C' ref from Metadata '/Game/VehicleBP/rigged/rear.PackageMetaData'
+[2018.11.21-03.44.21:701][930]LogMetaData: Removing '/Game/VehicleBP/rigged/rear_rig.SKEL_rear_rig_C' ref from Metadata '/Game/VehicleBP/rigged/rear.PackageMetaData'
+[2018.11.21-03.44.21:764][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rear_rig" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear_rig.uasset" SILENT=true
+[2018.11.21-03.44.21:767][930]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rear_rigF7C30EB747C5C06CE23D14B29B075C98.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear_rig.uasset'
+[2018.11.21-03.44.33:397][519]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.21-03.44.46:805][ 38]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset
+[2018.11.21-03.44.46:850][ 38]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.44.52:051][583]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Vehicle/rigged/rigged_tug_Final_Model.rigged_tug_Final_Model
+[2018.11.21-03.44.52:082][583]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.44.52:158][583]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.21-03.44.55:238][859]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton.rigged_tug_Final_Model_Skeleton
+[2018.11.21-03.44.55:252][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.44.55:288][859]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.21-03.45.00:236][391]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.45.28:689][702]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.45.29:226][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.45.29:251][732]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor874A98EF449C758AE5600C998F590FB1.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.45.38:985][685]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Vehicle/low_poly/boat_PB.boat_PB
+[2018.11.21-03.45.41:890][970]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.11.21-03.45.41:890][970]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.11.21-03.45.41:890][970]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2018.11.21-03.45.41:890][970]LogLinker: Warning: Can't find file 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.11.21-03.45.41:891][970]LogUObjectGlobals: Warning: Failed to find object 'Blueprint Engine/Tutorial/Installation/InstallingVisualStudioTutorial.InstallingVisualStudioTutorial'
+[2018.11.21-03.45.53:464][329]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.45.54:136][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.45.54:178][381]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor226B91AB4924BD1450B2C8ADA2191A53.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.45.56:134][612]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2018.11.21-03.45.58:652][879]Cmd: DELETE
+[2018.11.21-03.45.58:652][879]Cmd: ACTOR DELETE
+[2018.11.21-03.45.58:966][879]LogEditorActor: Deleted Actor: Sedan_C
+[2018.11.21-03.45.59:016][879]LogEditorActor: Deleted 1 Actors (0.194 secs)
+[2018.11.21-03.45.59:895][971]LogEditorViewport: Clicking on Actor (LMB): boatcar_C (boatcar)
+[2018.11.21-03.46.01:042][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.01:151][110]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.46.01:218][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.46.01:375][110]PIE: New page: SIE session: test (Nov 20, 2018, 5:46:01 PM)
+[2018.11.21-03.46.01:376][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.46.01:409][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033192s)
+[2018.11.21-03.46.01:410][110]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.46.01:421][110]LogPlayLevel: PIE: World Init took: (0.011789s)
+[2018.11.21-03.46.01:431][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.055047s)
+[2018.11.21-03.46.01:564][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.46.01:580][110]LogInit: FAudioDevice initialized.
+[2018.11.21-03.46.01:637][110]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.46.01:687][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.46.01
+[2018.11.21-03.46.01:812][110]LogWorld: Bringing up level for play took: 0.151230
+[2018.11.21-03.46.02:058][110]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.11.21-03.46.02:106][110]Cmd: pxvis collision 1
+[2018.11.21-03.46.02:106][110]Flag set.
+[2018.11.21-03.46.02:106][110]Num Actors: 29
+[2018.11.21-03.46.02:107][110]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 1.008
+[2018.11.21-03.46.14:022][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.14:151][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.46.14:218][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.46.14:260][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.46.14:285][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.11.21-03.46.16:186][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.20:442][778]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.46.24:655][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.24:760][182]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.46.24:775][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.46.24:775][182]PIE: New page: SIE session: test (Nov 20, 2018, 5:46:24 PM)
+[2018.11.21-03.46.24:775][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.46.24:777][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2018.11.21-03.46.24:778][182]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.46.24:778][182]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.11.21-03.46.24:778][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002760s)
+[2018.11.21-03.46.24:850][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.46.24:864][182]LogInit: FAudioDevice initialized.
+[2018.11.21-03.46.24:895][182]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.46.24:900][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.46.24
+[2018.11.21-03.46.24:900][182]LogWorld: Bringing up level for play took: 0.001396
+[2018.11.21-03.46.24:913][182]Cmd: pxvis collision 1
+[2018.11.21-03.46.24:913][182]Flag set.
+[2018.11.21-03.46.24:913][182]Num Actors: 29
+[2018.11.21-03.46.24:913][182]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.186
+[2018.11.21-03.46.31:796][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.31:962][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.46.31:994][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.46.32:024][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.46.32:059][732]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.11.21-03.46.40:274][712]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.46.44:354][116]Cmd: TRANSACTION UNDO
+[2018.11.21-03.46.44:354][116]LogEditorTransaction: Undo Move Actors
+[2018.11.21-03.46.44:454][116]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.46.45:349][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.58:529][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.46.58:633][459]LogSlate: Window 'rigged_tug_Final_Model_Skeleton*' being destroyed
+[2018.11.21-03.46.58:637][459]LogSlate: Window 'rigged_tug_Final_Model_Skeleton*' being destroyed
+[2018.11.21-03.47.07:501][772]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/front_rig.front_rig
+[2018.11.21-03.47.42:128][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Maps/test_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.21-03.47.42:166][ 46]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_Auto26C37B8334B91922A152AF38C03B0BD86.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Maps/test_Auto2.umap'
+[2018.11.21-03.47.42:169][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/test' took 0.075
+[2018.11.21-03.47.42:169][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2018.11.21-03.48.41:007][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-03.48.41:797][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.48.41:852][609]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testD03EFD594DD96F96A9440CB1700E09FE.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.48.41:879][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.48.41:894][609]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataBEFEE2F44D9BBB0B26A4FBA62E0B9FB3.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.48.43:243][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.48.43:344][778]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.48.43:359][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.48.43:359][778]PIE: New page: SIE session: test (Nov 20, 2018, 5:48:43 PM)
+[2018.11.21-03.48.43:359][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.48.43:361][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2018.11.21-03.48.43:362][778]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.48.43:362][778]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.11.21-03.48.43:362][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002978s)
+[2018.11.21-03.48.43:433][778]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.48.43:449][778]LogInit: FAudioDevice initialized.
+[2018.11.21-03.48.43:479][778]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.48.43:483][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.48.43
+[2018.11.21-03.48.43:483][778]LogWorld: Bringing up level for play took: 0.001210
+[2018.11.21-03.48.43:496][778]Cmd: pxvis collision 1
+[2018.11.21-03.48.43:496][778]Flag set.
+[2018.11.21-03.48.43:496][778]Num Actors: 29
+[2018.11.21-03.48.43:496][778]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.397
+[2018.11.21-03.48.54:237][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.48.54:390][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.48.54:422][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.48.54:444][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.48.54:489][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.11.21-03.48.58:638][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.05:677][152]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset
+[2018.11.21-03.49.05:722][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-03.49.08:975][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.18:780][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.18:934][547]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAs8658E773487E4FEA029A439C5D3C089B.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-03.49.20:330][713]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.49.20:342][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.49.20:342][713]PIE: New page: SIE session: test (Nov 20, 2018, 5:49:20 PM)
+[2018.11.21-03.49.20:342][713]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.49.20:344][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001823s)
+[2018.11.21-03.49.20:345][713]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.49.20:345][713]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2018.11.21-03.49.20:345][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002824s)
+[2018.11.21-03.49.20:388][713]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.49.20:401][713]LogInit: FAudioDevice initialized.
+[2018.11.21-03.49.20:430][713]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.49.20:433][713]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.49.20
+[2018.11.21-03.49.20:434][713]LogWorld: Bringing up level for play took: 0.001526
+[2018.11.21-03.49.20:446][713]Cmd: pxvis collision 1
+[2018.11.21-03.49.20:446][713]Flag set.
+[2018.11.21-03.49.20:446][713]Num Actors: 29
+[2018.11.21-03.49.20:446][713]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.652
+[2018.11.21-03.49.28:854][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.28:965][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.49.28:994][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.49.29:018][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.49.29:065][703]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.11.21-03.49.32:575][117]LogEditorViewport: Clicking on Actor (LMB): boatcar_C (boatcar)
+[2018.11.21-03.49.35:014][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.35:114][394]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.49.35:128][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.49.35:128][394]PIE: New page: SIE session: test (Nov 20, 2018, 5:49:35 PM)
+[2018.11.21-03.49.35:128][394]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.49.35:130][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001964s)
+[2018.11.21-03.49.35:131][394]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.49.35:131][394]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.11.21-03.49.35:131][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002979s)
+[2018.11.21-03.49.35:210][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.49.35:224][394]LogInit: FAudioDevice initialized.
+[2018.11.21-03.49.35:253][394]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.49.35:258][394]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.49.35
+[2018.11.21-03.49.35:259][394]LogWorld: Bringing up level for play took: 0.001678
+[2018.11.21-03.49.35:273][394]Cmd: pxvis collision 1
+[2018.11.21-03.49.35:273][394]Flag set.
+[2018.11.21-03.49.35:273][394]Num Actors: 29
+[2018.11.21-03.49.35:273][394]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.175
+[2018.11.21-03.49.44:120][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.49.44:239][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.49.44:269][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.49.44:293][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.49.44:339][406]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.11.21-03.50.16:047][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.50.19:786][205]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/rigged_Actor.rigged_Actor
+[2018.11.21-03.50.48:921][648]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.50.49:621][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.50.49:646][702]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor1B72D358403159FC647B539E165F4CAC.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.50.50:861][847]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.50.50:881][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.50.50:881][847]PIE: New page: SIE session: test (Nov 20, 2018, 5:50:50 PM)
+[2018.11.21-03.50.50:881][847]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.50.50:883][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002006s)
+[2018.11.21-03.50.50:884][847]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.50.50:884][847]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.11.21-03.50.50:884][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002950s)
+[2018.11.21-03.50.50:929][847]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.50.50:944][847]LogInit: FAudioDevice initialized.
+[2018.11.21-03.50.50:976][847]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.50.50:979][847]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.50.50
+[2018.11.21-03.50.50:980][847]LogWorld: Bringing up level for play took: 0.001335
+[2018.11.21-03.50.50:992][847]Cmd: pxvis collision 1
+[2018.11.21-03.50.50:992][847]Flag set.
+[2018.11.21-03.50.50:992][847]Num Actors: 29
+[2018.11.21-03.50.50:992][847]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.106
+[2018.11.21-03.51.11:344][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.51.11:453][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.11:485][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.51.11:511][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.11:559][259]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.11.21-03.51.20:076][273]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.51.21:840][453]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.51.21:857][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.51.21:857][453]PIE: New page: SIE session: test (Nov 20, 2018, 5:51:21 PM)
+[2018.11.21-03.51.21:857][453]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.51.21:859][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001887s)
+[2018.11.21-03.51.21:860][453]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.51.21:860][453]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.11.21-03.51.21:860][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002765s)
+[2018.11.21-03.51.21:907][453]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.51.21:921][453]LogInit: FAudioDevice initialized.
+[2018.11.21-03.51.21:953][453]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.51.21:957][453]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.51.21
+[2018.11.21-03.51.21:957][453]LogWorld: Bringing up level for play took: 0.001241
+[2018.11.21-03.51.21:970][453]Cmd: pxvis collision 1
+[2018.11.21-03.51.21:970][453]Flag set.
+[2018.11.21-03.51.21:970][453]Num Actors: 29
+[2018.11.21-03.51.21:970][453]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.872
+[2018.11.21-03.51.36:802][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.51.36:895][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.36:929][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.51.36:953][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.37:003][213]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.11.21-03.51.47:877][507]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.51.49:411][662]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.51.49:429][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.51.49:429][662]PIE: New page: SIE session: test (Nov 20, 2018, 5:51:49 PM)
+[2018.11.21-03.51.49:429][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.51.49:431][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002017s)
+[2018.11.21-03.51.49:432][662]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.51.49:432][662]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2018.11.21-03.51.49:432][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002962s)
+[2018.11.21-03.51.49:476][662]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.51.49:493][662]LogInit: FAudioDevice initialized.
+[2018.11.21-03.51.49:526][662]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.51.49:530][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.51.49
+[2018.11.21-03.51.49:531][662]LogWorld: Bringing up level for play took: 0.001781
+[2018.11.21-03.51.49:543][662]Cmd: pxvis collision 1
+[2018.11.21-03.51.49:543][662]Flag set.
+[2018.11.21-03.51.49:543][662]Num Actors: 29
+[2018.11.21-03.51.49:543][662]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.444
+[2018.11.21-03.51.56:225][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.51.56:321][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.56:353][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.51.56:379][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.51.56:420][440]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.11.21-03.52.10:448][113]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.52.13:358][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.52.13:417][423]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.52.13:435][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.52.13:435][423]PIE: New page: SIE session: test (Nov 20, 2018, 5:52:13 PM)
+[2018.11.21-03.52.13:435][423]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.52.13:437][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
+[2018.11.21-03.52.13:438][423]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.52.13:438][423]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.11.21-03.52.13:438][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002928s)
+[2018.11.21-03.52.13:480][423]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.52.13:493][423]LogInit: FAudioDevice initialized.
+[2018.11.21-03.52.13:524][423]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.52.13:526][423]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.52.13
+[2018.11.21-03.52.13:527][423]LogWorld: Bringing up level for play took: 0.001216
+[2018.11.21-03.52.13:540][423]Cmd: pxvis collision 1
+[2018.11.21-03.52.13:540][423]Flag set.
+[2018.11.21-03.52.13:540][423]Num Actors: 29
+[2018.11.21-03.52.13:540][423]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.442
+[2018.11.21-03.52.20:317][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.52.20:411][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.52.20:444][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.52.20:469][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.52.20:511][225]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2018.11.21-03.52.31:203][499]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.52.36:299][ 71]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.52.36:319][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.52.36:319][ 71]PIE: New page: SIE session: test (Nov 20, 2018, 5:52:36 PM)
+[2018.11.21-03.52.36:319][ 71]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.52.36:321][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002071s)
+[2018.11.21-03.52.36:322][ 71]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.52.36:322][ 71]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2018.11.21-03.52.36:322][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002918s)
+[2018.11.21-03.52.36:364][ 71]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.52.36:381][ 71]LogInit: FAudioDevice initialized.
+[2018.11.21-03.52.36:411][ 71]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.52.36:414][ 71]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.52.36
+[2018.11.21-03.52.36:415][ 71]LogWorld: Bringing up level for play took: 0.001448
+[2018.11.21-03.52.36:427][ 71]Cmd: pxvis collision 1
+[2018.11.21-03.52.36:427][ 71]Flag set.
+[2018.11.21-03.52.36:427][ 71]Num Actors: 29
+[2018.11.21-03.52.36:427][ 71]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.671
+[2018.11.21-03.52.41:277][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.52.41:396][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.52.41:428][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.52.41:449][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.52.41:496][650]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2018.11.21-03.52.57:791][597]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.52.59:156][726]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.52.59:174][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.52.59:174][726]PIE: New page: SIE session: test (Nov 20, 2018, 5:52:59 PM)
+[2018.11.21-03.52.59:174][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.52.59:176][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001997s)
+[2018.11.21-03.52.59:177][726]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.52.59:177][726]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.11.21-03.52.59:177][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002953s)
+[2018.11.21-03.52.59:226][726]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.52.59:240][726]LogInit: FAudioDevice initialized.
+[2018.11.21-03.52.59:269][726]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.52.59:273][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.52.59
+[2018.11.21-03.52.59:273][726]LogWorld: Bringing up level for play took: 0.001418
+[2018.11.21-03.52.59:286][726]Cmd: pxvis collision 1
+[2018.11.21-03.52.59:286][726]Flag set.
+[2018.11.21-03.52.59:286][726]Num Actors: 29
+[2018.11.21-03.52.59:286][726]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.187
+[2018.11.21-03.53.08:124][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.53.08:227][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.08:264][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.53.08:287][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.08:329][764]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2018.11.21-03.53.20:340][192]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.53.21:639][321]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.53.21:660][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.53.21:660][321]PIE: New page: SIE session: test (Nov 20, 2018, 5:53:21 PM)
+[2018.11.21-03.53.21:660][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.53.21:663][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2018.11.21-03.53.21:664][321]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.53.21:664][321]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2018.11.21-03.53.21:664][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.004301s)
+[2018.11.21-03.53.21:712][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.53.21:727][321]LogInit: FAudioDevice initialized.
+[2018.11.21-03.53.21:760][321]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.53.21:763][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.53.21
+[2018.11.21-03.53.21:763][321]LogWorld: Bringing up level for play took: 0.001294
+[2018.11.21-03.53.21:776][321]Cmd: pxvis collision 1
+[2018.11.21-03.53.21:776][321]Flag set.
+[2018.11.21-03.53.21:776][321]Num Actors: 29
+[2018.11.21-03.53.21:776][321]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.678
+[2018.11.21-03.53.26:401][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.53.28:294][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.28:331][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.53.28:358][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.28:387][  7]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2018.11.21-03.53.53:119][959]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.53.53:840][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rigged_Actor" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset" SILENT=true
+[2018.11.21-03.53.53:865][ 10]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor5E56C525466AEF41D4856796EFD9CDBF.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rigged_Actor.uasset'
+[2018.11.21-03.53.54:788][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.53.54:843][ 79]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test12D3962D41DCE4E32D0B2B8D90C25024.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.53.54:873][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.53.54:889][ 79]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltData421C915D4BDB913028CB9D8FF765E2C2.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.53.55:503][152]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.53.55:519][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.53.55:520][152]PIE: New page: SIE session: test (Nov 20, 2018, 5:53:55 PM)
+[2018.11.21-03.53.55:520][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.53.55:522][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002071s)
+[2018.11.21-03.53.55:522][152]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.53.55:523][152]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.11.21-03.53.55:523][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002978s)
+[2018.11.21-03.53.55:570][152]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.53.55:584][152]LogInit: FAudioDevice initialized.
+[2018.11.21-03.53.55:616][152]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.53.55:620][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.53.55
+[2018.11.21-03.53.55:621][152]LogWorld: Bringing up level for play took: 0.001610
+[2018.11.21-03.53.55:633][152]Cmd: pxvis collision 1
+[2018.11.21-03.53.55:634][152]Flag set.
+[2018.11.21-03.53.55:634][152]Num Actors: 29
+[2018.11.21-03.53.55:634][152]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.536
+[2018.11.21-03.53.59:556][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.53.59:666][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.59:699][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.53.59:725][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.53.59:770][605]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2018.11.21-03.54.10:183][840]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.54.11:536][974]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.54.11:552][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.54.11:552][974]PIE: New page: SIE session: test (Nov 20, 2018, 5:54:11 PM)
+[2018.11.21-03.54.11:552][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.54.11:555][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002714s)
+[2018.11.21-03.54.11:556][974]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.54.11:556][974]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2018.11.21-03.54.11:556][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003814s)
+[2018.11.21-03.54.11:600][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.54.11:614][974]LogInit: FAudioDevice initialized.
+[2018.11.21-03.54.11:649][974]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.54.11:653][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.54.11
+[2018.11.21-03.54.11:653][974]LogWorld: Bringing up level for play took: 0.001537
+[2018.11.21-03.54.11:666][974]Cmd: pxvis collision 1
+[2018.11.21-03.54.11:666][974]Flag set.
+[2018.11.21-03.54.11:666][974]Num Actors: 29
+[2018.11.21-03.54.11:666][974]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.568
+[2018.11.21-03.54.15:539][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.54.18:072][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.54.18:104][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.54.18:131][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.54.18:162][569]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2018.11.21-03.54.36:512][761]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.54.37:259][818]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.54.38:556][948]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.54.38:579][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.54.38:579][948]PIE: New page: SIE session: test (Nov 20, 2018, 5:54:38 PM)
+[2018.11.21-03.54.38:579][948]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.54.38:582][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003428s)
+[2018.11.21-03.54.38:583][948]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.54.38:583][948]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.11.21-03.54.38:583][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.004482s)
+[2018.11.21-03.54.38:623][948]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.54.38:636][948]LogInit: FAudioDevice initialized.
+[2018.11.21-03.54.38:665][948]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.54.38:669][948]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.54.38
+[2018.11.21-03.54.38:669][948]LogWorld: Bringing up level for play took: 0.001486
+[2018.11.21-03.54.38:683][948]Cmd: pxvis collision 1
+[2018.11.21-03.54.38:683][948]Flag set.
+[2018.11.21-03.54.38:683][948]Num Actors: 29
+[2018.11.21-03.54.38:683][948]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.416
+[2018.11.21-03.54.39:937][ 80]LogEditorViewport: Clicking on Actor (context menu): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.54.40:078][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-03.54.41:087][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.54.41:120][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.54.41:145][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.54.41:160][188]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2018.11.21-03.55.02:270][708]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-03.55.03:801][860]LogTemp: Repeating last play command: Simulate
+[2018.11.21-03.55.03:819][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-03.55.03:819][860]PIE: New page: SIE session: test (Nov 20, 2018, 5:55:03 PM)
+[2018.11.21-03.55.03:819][860]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-03.55.03:822][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003215s)
+[2018.11.21-03.55.03:823][860]LogAIModule: Creating AISystem for world test
+[2018.11.21-03.55.03:824][860]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2018.11.21-03.55.03:824][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.004614s)
+[2018.11.21-03.55.03:868][860]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-03.55.03:881][860]LogInit: FAudioDevice initialized.
+[2018.11.21-03.55.03:912][860]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-03.55.03:915][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-22.55.03
+[2018.11.21-03.55.03:916][860]LogWorld: Bringing up level for play took: 0.001232
+[2018.11.21-03.55.03:928][860]Cmd: pxvis collision 1
+[2018.11.21-03.55.03:928][860]Flag set.
+[2018.11.21-03.55.03:928][860]Num Actors: 29
+[2018.11.21-03.55.03:928][860]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.829
+[2018.11.21-03.55.09:330][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.21-03.55.12:734][818]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.55.13:567][893]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.55.14:282][958]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.55.14:860][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.21-03.55.18:641][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.55.18:751][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-03.55.18:802][385]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testC6BD06994E29206DD00412AD33FFBC04.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-03.55.18:828][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-03.55.18:840][385]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataF9B421074E2315C6F131B39EE6DE865E.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-03.55.21:523][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.55.21:627][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.55.21:660][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-03.55.21:687][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-03.55.21:727][672]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2018.11.21-03.56.21:564][698]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.21-03.57.12:747][807]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.59.12:017][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-03.59.16:322][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.21-03.59.16:893][500]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-03.59.19:933][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.00.01:924][862]BlueprintLog: New page: Compile rigged_Actor
+[2018.11.21-04.00.03:959][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-04.00.04:010][ 53]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testA3916F1244172204BB36E99CAB30D3BD.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-04.00.04:040][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-04.00.04:061][ 53]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltData0EC05EAD4548DEC4BBFAF58BC615F153.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-04.02.44:126][233]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\rigged_CRAP.FBX)
+[2018.11.21-04.02.44:174][233]LogFbx: Loading FBX Scene from D:\WORK\385\project\rigged_CRAP.FBX
+[2018.11.21-04.02.44:537][233]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.02.47:470][233]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-04.02.47:491][233]LogFbx: =================================================
+[2018.11.21-04.02.47:491][233]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.02.47:491][233]LogFbx: 	Total Deformer Count 1276845152.
+[2018.11.21-04.02.47:491][233]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.02.47:491][233]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.02.47:491][233]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.02.47:491][233]LogFbx: =================================================
+[2018.11.21-04.02.47:491][233]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.02.47:491][233]LogFbx: 	Total Deformer Count 1276845152.
+[2018.11.21-04.02.47:491][233]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.02.47:491][233]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.02.47:491][233]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.02.48:236][233]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.21-04.03.16:473][233]LogSkeletalMesh: Section 0: 309784 vertices, 1 active bones
+[2018.11.21-04.03.16:534][233]LogSkeletalMesh: Section 0: Material=0, 483622 triangles
+[2018.11.21-04.03.16:542][233]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.03.17:276][233]LogSkeletalMesh: Built Skeletal Mesh [0.73s] /Game/Vehicle/rigged/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.06.37:737][233]LogSlate: Window 'Message' being destroyed
+[2018.11.21-04.06.39:669][233]LogSlate: Window 'Message' being destroyed
+[2018.11.21-04.06.43:062][233]LogSlate: Window 'Message' being destroyed
+[2018.11.21-04.06.43:084][233]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_CRAP_PhysicsAsset'
+[2018.11.21-04.06.43:084][233]LogLinker: Can't find file '/Game/Vehicle/rigged/rigged_CRAP_PhysicsAsset'
+[2018.11.21-04.06.43:160][233]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.06.43:923][233]LogSkeletalMesh: Built Skeletal Mesh [0.76s] /Game/Vehicle/rigged/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.06.43:994][233]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.21-04.06.44:018][233]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.06.44:762][233]LogSkeletalMesh: Built Skeletal Mesh [0.74s] /Game/Vehicle/rigged/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.06.57:971][348]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.21-04.07.15:232][914]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\rigged_CRAP.FBX)
+[2018.11.21-04.07.15:279][914]LogFbx: Loading FBX Scene from D:\WORK\385\project\rigged_CRAP.FBX
+[2018.11.21-04.07.15:638][914]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.07.18:260][914]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-04.07.18:278][914]LogFbx: =================================================
+[2018.11.21-04.07.18:278][914]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.07.18:278][914]LogFbx: 	Total Deformer Count 1276253728.
+[2018.11.21-04.07.18:278][914]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.07.18:278][914]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.07.18:278][914]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.07.18:278][914]LogFbx: =================================================
+[2018.11.21-04.07.18:278][914]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.07.18:278][914]LogFbx: 	Total Deformer Count 1276253728.
+[2018.11.21-04.07.18:278][914]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.07.18:278][914]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.07.18:278][914]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.07.18:997][914]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.21-04.07.46:271][914]LogSkeletalMesh: Section 0: 309784 vertices, 1 active bones
+[2018.11.21-04.07.46:326][914]LogSkeletalMesh: Section 0: Material=0, 483622 triangles
+[2018.11.21-04.07.46:334][914]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.07.47:049][914]LogSkeletalMesh: Built Skeletal Mesh [0.72s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.07.47:148][914]LogLinker: Can't find file '/Game/Vehicle/crap/rigged_CRAP_Skeleton'
+[2018.11.21-04.07.47:149][914]LogLinker: Can't find file '/Game/Vehicle/crap/rigged_CRAP_Skeleton'
+[2018.11.21-04.07.47:151][914]LogLinker: Can't find file '/Game/Vehicle/crap/rigged_CRAP_PhysicsAsset'
+[2018.11.21-04.07.47:151][914]LogLinker: Can't find file '/Game/Vehicle/crap/rigged_CRAP_PhysicsAsset'
+[2018.11.21-04.07.47:206][914]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.07.47:979][914]LogSkeletalMesh: Built Skeletal Mesh [0.77s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.07.48:034][914]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.21-04.07.48:040][914]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.07.48:752][914]LogSkeletalMesh: Built Skeletal Mesh [0.71s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.07.55:589][589]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/crap/rigged_CRAP_PhysicsAsset.rigged_CRAP_PhysicsAsset
+[2018.11.21-04.07.55:634][589]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-04.08.02:958][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.08.03:049][144]LogSlate: Window 'rigged_CRAP_PhysicsAsset*' being destroyed
+[2018.11.21-04.08.03:053][144]LogSlate: Window 'rigged_CRAP_PhysicsAsset*' being destroyed
+[2018.11.21-04.08.08:881][577]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.21-04.08.09:371][577]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.08.10:082][577]LogSkeletalMesh: Built Skeletal Mesh [0.71s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.08.10:160][577]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.08.10:867][577]LogSkeletalMesh: Built Skeletal Mesh [0.74s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.08.16:379][107]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/rigged_Actor.rigged_Actor
+[2018.11.21-04.08.23:857][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.08.34:720][551]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\assets\Gold_Coin.fbx)
+[2018.11.21-04.08.34:731][551]LogFbx: Loading FBX Scene from D:\WORK\385\project\assets\Gold_Coin.fbx
+[2018.11.21-04.08.34:760][551]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.08.43:500][551]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-04.08.43:530][551]LogFbx: =================================================
+[2018.11.21-04.08.43:530][551]LogFbx: Dumping Node START [pCylinder3] 
+[2018.11.21-04.08.43:530][551]LogFbx: 	Total Deformer Count 1964948928.
+[2018.11.21-04.08.43:530][551]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.08.43:530][551]LogFbx: 		[Node Attribute Child 1] pCylinder3 (Type Mesh).
+[2018.11.21-04.08.43:530][551]LogFbx: Dumping Node END [pCylinder3]
+[2018.11.21-04.08.43:530][551]LogFbx: =================================================
+[2018.11.21-04.08.43:530][551]LogFbx: Dumping Node START [pCylinder3] 
+[2018.11.21-04.08.43:530][551]LogFbx: 	Total Deformer Count 1964948928.
+[2018.11.21-04.08.43:530][551]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.08.43:530][551]LogFbx: 		[Node Attribute Child 1] pCylinder3 (Type Mesh).
+[2018.11.21-04.08.43:530][551]LogFbx: Dumping Node END [pCylinder3]
+[2018.11.21-04.08.43:950][551]LogMaterial: Warning: Material /Game/Geometry/collectables/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.21-04.08.43:964][551]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.21-04.08.44:256][551]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.21-04.08.44:256][551]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.21-04.08.44:256][551]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.21-04.08.44:256][551]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.21-04.08.44:340][551]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.21-04.08.44:459][551]LogFbx: Triangulating skeletal mesh pCylinder3
+[2018.11.21-04.08.44:544][551]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.21-04.08.44:589][551]LogSkeletalMesh: Section 0: 728 vertices, 1 active bones
+[2018.11.21-04.08.44:589][551]LogSkeletalMesh: Section 0: Material=0, 720 triangles
+[2018.11.21-04.08.44:590][551]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.08.44:613][551]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.08.44:614][551]LogLinker: Can't find file '/Game/Geometry/collectables/Gold_Coin_Skeleton'
+[2018.11.21-04.08.44:614][551]LogLinker: Can't find file '/Game/Geometry/collectables/Gold_Coin_Skeleton'
+[2018.11.21-04.08.44:616][551]LogLinker: Can't find file '/Game/Geometry/collectables/Gold_Coin_PhysicsAsset'
+[2018.11.21-04.08.44:617][551]LogLinker: Can't find file '/Game/Geometry/collectables/Gold_Coin_PhysicsAsset'
+[2018.11.21-04.08.44:622][551]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_35:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.11.21-04.08.44:649][551]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.08.44:668][551]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.08.44:675][551]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.21-04.08.44:679][551]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.08.44:697][551]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.08.44:720][551]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\WORK\385\project\assets\Oil_Barrel_Low.fbx)
+[2018.11.21-04.08.44:733][551]LogFbx: Loading FBX Scene from D:\WORK\385\project\assets\Oil_Barrel_Low.fbx
+[2018.11.21-04.08.44:744][551]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.08.44:744][551]LogFbx: =================================================
+[2018.11.21-04.08.44:744][551]LogFbx: Dumping Node START [Oil_Barrel_Low] 
+[2018.11.21-04.08.44:744][551]LogFbx: 	Total Deformer Count 1274844304.
+[2018.11.21-04.08.44:744][551]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.08.44:744][551]LogFbx: 		[Node Attribute Child 1] Oil_Barrel_Low (Type Mesh).
+[2018.11.21-04.08.44:744][551]LogFbx: Dumping Node END [Oil_Barrel_Low]
+[2018.11.21-04.08.44:745][551]LogFbx: =================================================
+[2018.11.21-04.08.44:745][551]LogFbx: Dumping Node START [Oil_Barrel_Low] 
+[2018.11.21-04.08.44:745][551]LogFbx: 	Total Deformer Count 1274844304.
+[2018.11.21-04.08.44:745][551]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.08.44:745][551]LogFbx: 		[Node Attribute Child 1] Oil_Barrel_Low (Type Mesh).
+[2018.11.21-04.08.44:745][551]LogFbx: Dumping Node END [Oil_Barrel_Low]
+[2018.11.21-04.08.44:747][551]LogMaterial: Warning: Material /Game/Geometry/collectables/Mat_Oil_Barrel.Mat_Oil_Barrel needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.21-04.08.44:749][551]LogMaterial: Display: Missing cached shader map for material Mat_Oil_Barrel, compiling. 
+[2018.11.21-04.08.44:784][551]LogMaterial: Display: Missing cached shader map for material Mat_Oil_Barrel, compiling. 
+[2018.11.21-04.08.44:825][551]LogFbx: Triangulating skeletal mesh Oil_Barrel_Low
+[2018.11.21-04.08.44:962][551]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.21-04.08.45:018][551]LogSkeletalMesh: Section 0: 2193 vertices, 1 active bones
+[2018.11.21-04.08.45:019][551]LogSkeletalMesh: Section 0: Material=0, 3152 triangles
+[2018.11.21-04.08.45:020][551]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.08.45:038][551]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.08.45:040][551]LogLinker: Can't find file '/Game/Geometry/collectables/Oil_Barrel_Low_Skeleton'
+[2018.11.21-04.08.45:040][551]LogLinker: Can't find file '/Game/Geometry/collectables/Oil_Barrel_Low_Skeleton'
+[2018.11.21-04.08.45:044][551]LogLinker: Can't find file '/Game/Geometry/collectables/Oil_Barrel_Low_PhysicsAsset'
+[2018.11.21-04.08.45:044][551]LogLinker: Can't find file '/Game/Geometry/collectables/Oil_Barrel_Low_PhysicsAsset'
+[2018.11.21-04.08.45:049][551]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_37:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.11.21-04.08.45:058][551]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.08.45:074][551]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.08.45:078][551]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.21-04.08.45:082][551]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.08.45:100][551]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.08.47:978][889]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.11.21-04.08.48:388][930]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.11.21-04.08.49:349][ 18]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.11.21-04.08.49:388][ 21]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.21-04.08.50:091][ 71]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.21-04.08.51:890][206]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.21-04.08.51:998][214]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.21-04.08.52:612][260]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.21-04.08.52:967][297]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.21-04.08.54:005][399]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.21-04.08.55:294][495]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.21-04.08.55:531][514]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.21-04.09.01:541][837]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.21-04.09.01:861][837]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.09.01:877][837]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.09.01:878][837]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.09.01:895][837]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.09.01:902][837]LogSkeletalMesh: Building Skeletal Mesh Oil_Barrel_Low...
+[2018.11.21-04.09.01:917][837]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.09.01:922][837]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.09.01:942][837]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.09.01:946][837]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.09.01:965][837]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.09.01:977][837]LogSkeletalMesh: Building Skeletal Mesh Gold_Coin...
+[2018.11.21-04.09.01:998][837]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.09.05:034][ 19]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\assets\Oil_Barrel_Low.fbx)
+[2018.11.21-04.09.05:045][ 19]LogFbx: Loading FBX Scene from D:\WORK\385\project\assets\Oil_Barrel_Low.fbx
+[2018.11.21-04.09.05:053][ 19]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.09.06:645][ 19]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-04.09.06:724][ 19]LogMaterial: Display: Missing cached shader map for material Mat_Oil_Barrel, compiling. 
+[2018.11.21-04.09.06:741][ 19]LogFbx: Warning: Triangulating static mesh Oil_Barrel_Low
+[2018.11.21-04.09.06:977][ 19]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.21-04.09.06:978][ 19]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.21-04.09.06:978][ 19]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.21-04.09.06:996][ 19]LogStaticMesh: Building static mesh Oil_Barrel_Low...
+[2018.11.21-04.09.07:088][ 19]LogStaticMesh: Built static mesh [0.09s] /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.09.07:180][ 19]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\assets\Gold_Coin.fbx)
+[2018.11.21-04.09.07:192][ 19]LogFbx: Loading FBX Scene from D:\WORK\385\project\assets\Gold_Coin.fbx
+[2018.11.21-04.09.07:202][ 19]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.09.07:208][ 19]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.11.21-04.09.07:219][ 19]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.21-04.09.07:219][ 19]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.21-04.09.07:222][ 19]LogFbx: Warning: Triangulating static mesh pCylinder3
+[2018.11.21-04.09.07:279][ 19]LogStaticMesh: Building static mesh Gold_Coin...
+[2018.11.21-04.09.07:323][ 19]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.09.08:697][ 97]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.21-04.09.13:359][433]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.11.21-04.09.24:962][400]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low
+[2018.11.21-04.09.31:800][952]LogSlate: Window 'Oil_Barrel_Low*' being destroyed
+[2018.11.21-04.09.31:803][952]LogSlate: Window 'Oil_Barrel_Low*' being destroyed
+[2018.11.21-04.09.37:860][377]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Geometry/collectables/coin.coin
+[2018.11.21-04.10.02:866][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.10.10:827][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.10.10:927][236]BlueprintLog: New page: Compile coin
+[2018.11.21-04.10.21:764][434]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Geometry/collectables/Barrel_Fuel.Barrel_Fuel
+[2018.11.21-04.10.27:463][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.10.31:061][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.10.51:266][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.10.51:383][895]BlueprintLog: New page: Compile Barrel_Fuel
+[2018.11.21-04.10.53:320][ 84]BlueprintLog: New page: Compile coin
+[2018.11.21-04.10.53:823][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/collectables/coin" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Geometry/collectables/coin.uasset" SILENT=true
+[2018.11.21-04.10.53:853][109]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/coinAFE24F9A4544CF09C65433A4372317AF.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Geometry/collectables/coin.uasset'
+[2018.11.21-04.10.54:674][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/collectables/Barrel_Fuel" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Geometry/collectables/Barrel_Fuel.uasset" SILENT=true
+[2018.11.21-04.10.54:713][203]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Barrel_Fuel945592754D25FE14E0311986AF38773E.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Geometry/collectables/Barrel_Fuel.uasset'
+[2018.11.21-04.10.54:980][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.10.58:159][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.00:382][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.04:321][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.04:446][260]LogTemp: Repeating last play command: Simulate
+[2018.11.21-04.11.04:464][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.11.04:464][260]PIE: New page: SIE session: test (Nov 20, 2018, 6:11:04 PM)
+[2018.11.21-04.11.04:464][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.11.04:467][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2018.11.21-04.11.04:467][260]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.11.04:468][260]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.11.21-04.11.04:468][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003242s)
+[2018.11.21-04.11.04:517][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.11.04:532][260]LogInit: FAudioDevice initialized.
+[2018.11.21-04.11.04:561][260]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.11.04:564][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.11.04
+[2018.11.21-04.11.04:564][260]LogWorld: Bringing up level for play took: 0.001302
+[2018.11.21-04.11.04:577][260]Cmd: pxvis collision 1
+[2018.11.21-04.11.04:577][260]Flag set.
+[2018.11.21-04.11.04:577][260]Num Actors: 31
+[2018.11.21-04.11.04:577][260]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.522
+[2018.11.21-04.11.13:877][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.13:987][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.11.14:019][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.11.14:047][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.11.14:093][364]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2018.11.21-04.11.23:563][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.30:535][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.11.55:255][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Maps/test_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.21-04.11.55:288][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_Auto31D23E48045585C1803B426A485E8E0B6.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Maps/test_Auto3.umap'
+[2018.11.21-04.11.55:291][401]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/test' took 0.064
+[2018.11.21-04.11.55:291][401]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
+[2018.11.21-04.11.55:293][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton] ([1] browsable assets)...
+[2018.11.21-04.11.55:293][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton]
+[2018.11.21-04.11.55:297][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_Skeleton_0903E62642EDB98BCE9F9782F328CBCA.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Vehicle/rigged/rigged_tug_Final_Model_Skeleton_Auto3.uasset'
+[2018.11.21-04.11.55:300][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/rigged/rigged_Actor] ([1] browsable assets)...
+[2018.11.21-04.11.55:313][401]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/rigged/rigged_Actor.rigged_Actor]
+[2018.11.21-04.11.55:313][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/rigged/rigged_Actor]
+[2018.11.21-04.11.55:341][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_Actor_Auto34667A28E44DB3CE477882FA799774F47.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/VehicleBP/rigged/rigged_Actor_Auto3.uasset'
+[2018.11.21-04.11.55:343][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/collectables/Oil_Barrel_Low] ([1] browsable assets)...
+[2018.11.21-04.11.55:355][401]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/collectables/Oil_Barrel_Low.Oil_Barrel_Low]
+[2018.11.21-04.11.55:355][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/collectables/Oil_Barrel_Low]
+[2018.11.21-04.11.55:382][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Oil_Barrel_Low_Auto3D32438BA40D21A0F2D926BBF726EEDF6.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Geometry/collectables/Oil_Barrel_Low_Auto3.uasset'
+[2018.11.21-04.11.55:384][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/collectables/Mat_Oil_Barrel] ([1] browsable assets)...
+[2018.11.21-04.11.55:396][401]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/collectables/Mat_Oil_Barrel.Mat_Oil_Barrel]
+[2018.11.21-04.11.55:396][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/collectables/Mat_Oil_Barrel]
+[2018.11.21-04.11.55:409][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Mat_Oil_Barrel_Auto3F7D98EF449B7AEFA321421B841D07739.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Geometry/collectables/Mat_Oil_Barrel_Auto3.uasset'
+[2018.11.21-04.11.55:411][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/collectables/Gold_Coin] ([1] browsable assets)...
+[2018.11.21-04.11.55:423][401]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/collectables/Gold_Coin.Gold_Coin]
+[2018.11.21-04.11.55:423][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/collectables/Gold_Coin]
+[2018.11.21-04.11.55:436][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Gold_Coin_Auto36F020DDF4DF86AF32FF5449134B2591F.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Geometry/collectables/Gold_Coin_Auto3.uasset'
+[2018.11.21-04.11.55:438][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/collectables/lambert1] ([1] browsable assets)...
+[2018.11.21-04.11.55:450][401]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/collectables/lambert1.lambert1]
+[2018.11.21-04.11.55:450][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/collectables/lambert1]
+[2018.11.21-04.11.55:463][401]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/lambert1_Auto3942982F94F0D53A1FABB2385221DBC55.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/Geometry/collectables/lambert1_Auto3.uasset'
+[2018.11.21-04.11.55:465][401]LogFileHelpers: Auto-saving content packages took 0.172
+[2018.11.21-04.14.59:339][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.16.03:504][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.16.03:620][936]LogTemp: Repeating last play command: Simulate
+[2018.11.21-04.16.03:634][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.16.03:634][936]PIE: New page: SIE session: test (Nov 20, 2018, 6:16:03 PM)
+[2018.11.21-04.16.03:634][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.16.03:637][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002211s)
+[2018.11.21-04.16.03:637][936]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.16.03:638][936]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2018.11.21-04.16.03:638][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003157s)
+[2018.11.21-04.16.03:686][936]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.16.03:701][936]LogInit: FAudioDevice initialized.
+[2018.11.21-04.16.03:736][936]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.16.03:741][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.16.03
+[2018.11.21-04.16.03:741][936]LogWorld: Bringing up level for play took: 0.001474
+[2018.11.21-04.16.03:754][936]Cmd: pxvis collision 1
+[2018.11.21-04.16.03:754][936]Flag set.
+[2018.11.21-04.16.03:754][936]Num Actors: 31
+[2018.11.21-04.16.03:754][936]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.656
+[2018.11.21-04.16.18:878][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.16.18:972][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.16.19:003][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.16.19:030][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.16.19:071][703]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2018.11.21-04.16.21:843][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.16.35:768][421]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.rigged_tug_Final_Model_PhysicsAsset
+[2018.11.21-04.16.42:339][421]LogSlate: Window 'Message' being destroyed
+[2018.11.21-04.16.42:343][421]LoadErrors: Error: The Skeleton  rigged_tug_Final_Model_Skeleton is missing bones that SkeletalMesh  rigged_tug_Final_Model needs. They will be added now. Please save the Skeleton!
+[2018.11.21-04.16.43:698][421]LogSlate: Window 'Message' being destroyed
+[2018.11.21-04.16.43:702][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-04.16.50:267][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.53:072][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.57:155][799]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.59:206][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.01:156][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.01:299][235]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_tug_Final_Model_PhysicsAs6D8C962E40F7F284A01D79B6574894F8.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/rigged/rigged_tug_Final_Model_PhysicsAsset.uasset'
+[2018.11.21-04.17.01:599][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.11:214][413]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.17.13:294][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.13:382][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-04.17.13:439][633]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test595F64FC487204623A4284BA97021CC0.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-04.17.13:471][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-04.17.13:485][633]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltData73A19639432BDA370326FD8BC0A30202.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-04.17.14:003][689]LogTemp: Repeating last play command: Simulate
+[2018.11.21-04.17.14:016][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.17.14:016][689]PIE: New page: SIE session: test (Nov 20, 2018, 6:17:14 PM)
+[2018.11.21-04.17.14:016][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.17.14:019][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002105s)
+[2018.11.21-04.17.14:019][689]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.17.14:019][689]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2018.11.21-04.17.14:019][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003029s)
+[2018.11.21-04.17.14:089][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.17.14:111][689]LogInit: FAudioDevice initialized.
+[2018.11.21-04.17.14:140][689]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.17.14:144][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.17.14
+[2018.11.21-04.17.14:145][689]LogWorld: Bringing up level for play took: 0.001437
+[2018.11.21-04.17.14:158][689]Cmd: pxvis collision 1
+[2018.11.21-04.17.14:158][689]Flag set.
+[2018.11.21-04.17.14:158][689]Num Actors: 31
+[2018.11.21-04.17.14:158][689]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 1.059
+[2018.11.21-04.17.34:611][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.34:696][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.17.34:728][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.17.34:752][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.17.34:802][898]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2018.11.21-04.17.59:080][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.00:631][794]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.18.03:189][ 90]LogEditorViewport: Clicking on Actor (LMB): boatcar_C (boatcar)
+[2018.11.21-04.18.07:719][607]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.18.10:064][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.10:173][866]LogTemp: Repeating last play command: Simulate
+[2018.11.21-04.18.10:187][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.18.10:187][866]PIE: New page: SIE session: test (Nov 20, 2018, 6:18:10 PM)
+[2018.11.21-04.18.10:187][866]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.18.10:190][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002909s)
+[2018.11.21-04.18.10:191][866]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.18.10:191][866]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2018.11.21-04.18.10:191][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.004063s)
+[2018.11.21-04.18.10:260][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.18.10:278][866]LogInit: FAudioDevice initialized.
+[2018.11.21-04.18.10:310][866]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.18.10:325][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.18.10
+[2018.11.21-04.18.10:326][866]LogWorld: Bringing up level for play took: 0.004450
+[2018.11.21-04.18.10:343][866]Cmd: pxvis collision 1
+[2018.11.21-04.18.10:343][866]Flag set.
+[2018.11.21-04.18.10:343][866]Num Actors: 31
+[2018.11.21-04.18.10:343][866]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.755
+[2018.11.21-04.18.17:889][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.17:983][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.18.18:018][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.18.18:043][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.18.18:083][735]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2018.11.21-04.18.57:961][126]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.19.05:315][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.19.07:306][ 14]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/rear_rig.rear_rig
+[2018.11.21-04.19.10:535][360]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/front_rig.front_rig
+[2018.11.21-04.19.37:219][519]LogAssetEditorManager: Opening Asset editor for StaticMesh /Engine/EngineMeshes/Cylinder.Cylinder
+[2018.11.21-04.19.53:775][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.03:186][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.16:714][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.17:527][239]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.18:157][313]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.19:620][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.23:380][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.40:681][996]LogSlate: Window 'Cylinder' being destroyed
+[2018.11.21-04.20.40:685][996]LogSlate: Window 'Cylinder' being destroyed
+[2018.11.21-04.20.48:193][887]BlueprintLog: New page: Compile rear_rig
+[2018.11.21-04.20.50:896][207]BlueprintLog: New page: Compile front_rig
+[2018.11.21-04.20.51:358][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/front_rig" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset" SILENT=true
+[2018.11.21-04.20.51:365][256]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/front_rigCB820DD84F767B9267016596120F716C.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset'
+[2018.11.21-04.20.54:133][585]LogTemp: Repeating last play command: Simulate
+[2018.11.21-04.20.54:150][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.20.54:150][585]PIE: New page: SIE session: test (Nov 20, 2018, 6:20:54 PM)
+[2018.11.21-04.20.54:151][585]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.20.54:153][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
+[2018.11.21-04.20.54:153][585]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.20.54:153][585]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2018.11.21-04.20.54:154][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002997s)
+[2018.11.21-04.20.54:221][585]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.20.54:235][585]LogInit: FAudioDevice initialized.
+[2018.11.21-04.20.54:269][585]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.20.54:272][585]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.20.54
+[2018.11.21-04.20.54:272][585]LogWorld: Bringing up level for play took: 0.001281
+[2018.11.21-04.20.54:285][585]Cmd: pxvis collision 1
+[2018.11.21-04.20.54:285][585]Flag set.
+[2018.11.21-04.20.54:285][585]Num Actors: 31
+[2018.11.21-04.20.54:285][585]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.814
+[2018.11.21-04.21.04:186][725]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.21.05:666][846]LogEditorViewport: Clicking on Actor (LMB): boatcar_C (boatcar)
+[2018.11.21-04.21.09:482][179]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.21.10:201][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.21.12:101][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.12:195][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-04.21.12:252][446]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test93C52E074DE1F5D2AFA722B26021F4E3.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-04.21.12:279][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-04.21.12:292][446]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataB3A9A863426D2FB7D041D8AE6563D673.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-04.21.13:036][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.13:069][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.21.13:090][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.13:106][528]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2018.11.21-04.21.15:392][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.21.15:392][797]PIE: New page: PIE session: test (Nov 20, 2018, 6:21:15 PM)
+[2018.11.21-04.21.15:392][797]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.21.15:394][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001982s)
+[2018.11.21-04.21.15:395][797]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.21.15:395][797]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2018.11.21-04.21.15:395][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003081s)
+[2018.11.21-04.21.15:441][797]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.21.15:454][797]LogInit: FAudioDevice initialized.
+[2018.11.21-04.21.15:484][797]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.21.15:488][797]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.21.15
+[2018.11.21-04.21.15:489][797]LogWorld: Bringing up level for play took: 0.001635
+[2018.11.21-04.21.15:524][797]Cmd: pxvis collision 1
+[2018.11.21-04.21.15:524][797]Flag set.
+[2018.11.21-04.21.15:524][797]Num Actors: 32
+[2018.11.21-04.21.15:546][797]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.448
+[2018.11.21-04.21.16:996][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.17:029][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.21.17:055][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.17:101][962]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2018.11.21-04.21.22:666][612]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.21-04.21.24:732][838]Cmd: DELETE
+[2018.11.21-04.21.24:732][838]Cmd: ACTOR DELETE
+[2018.11.21-04.21.24:742][838]LogEditorActor: Deleted Actor: PlayerStart
+[2018.11.21-04.21.24:769][838]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.11.21-04.21.25:671][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.25:786][960]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.21.25:806][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.21.25:806][960]PIE: New page: PIE session: test (Nov 20, 2018, 6:21:25 PM)
+[2018.11.21-04.21.25:806][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.21.25:808][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001970s)
+[2018.11.21-04.21.25:808][960]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.21.25:809][960]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2018.11.21-04.21.25:809][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003050s)
+[2018.11.21-04.21.25:855][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.21.25:870][960]LogInit: FAudioDevice initialized.
+[2018.11.21-04.21.25:898][960]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.21.25:901][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.21.25
+[2018.11.21-04.21.25:901][960]LogWorld: Bringing up level for play took: 0.001377
+[2018.11.21-04.21.25:914][960]Cmd: pxvis collision 1
+[2018.11.21-04.21.25:914][960]Flag set.
+[2018.11.21-04.21.25:914][960]Num Actors: 32
+[2018.11.21-04.21.25:914][960]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.817
+[2018.11.21-04.21.31:980][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.32:013][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.21.32:043][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.32:082][683]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2018.11.21-04.21.32:819][771]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.21.34:407][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.21.37:335][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.37:465][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-04.21.37:517][308]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test15BD4E60433A10D836C2C2B1B268A79D.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-04.21.37:545][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-04.21.37:556][308]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltData4CE44A9248048AE57B0020AA7303EEA6.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-04.21.38:321][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.38:446][412]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.21.38:466][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.21.38:466][412]PIE: New page: PIE session: test (Nov 20, 2018, 6:21:38 PM)
+[2018.11.21-04.21.38:466][412]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.21.38:468][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001958s)
+[2018.11.21-04.21.38:469][412]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.21.38:469][412]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.11.21-04.21.38:469][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002841s)
+[2018.11.21-04.21.38:538][412]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.21.38:553][412]LogInit: FAudioDevice initialized.
+[2018.11.21-04.21.38:584][412]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.21.38:589][412]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.21.38
+[2018.11.21-04.21.38:608][412]LogWorld: Bringing up level for play took: 0.020592
+[2018.11.21-04.21.38:621][412]Cmd: pxvis collision 1
+[2018.11.21-04.21.38:621][412]Flag set.
+[2018.11.21-04.21.38:621][412]Num Actors: 29
+[2018.11.21-04.21.38:621][412]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.477
+[2018.11.21-04.21.49:818][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.49:852][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.21.49:876][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.21.49:923][745]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2018.11.21-04.21.55:005][339]LogEditorViewport: Clicking on Actor (LMB): rigged_Actor_C (rigged_Actor)
+[2018.11.21-04.21.56:949][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.22.10:736][204]BlueprintLog: New page: Compile rear_rig
+[2018.11.21-04.22.11:184][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/rear_rig" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear_rig.uasset" SILENT=true
+[2018.11.21-04.22.11:192][252]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rear_rigB620FDDD4B5EF5E4F7531C9910387B6D.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/rear_rig.uasset'
+[2018.11.21-04.22.14:147][606]BlueprintLog: New page: Compile front_rig
+[2018.11.21-04.22.14:540][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/rigged/front_rig" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset" SILENT=true
+[2018.11.21-04.22.14:547][647]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/front_rigE423D5CB4752A4F6192E10B89D3568CB.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/rigged/front_rig.uasset'
+[2018.11.21-04.22.15:666][773]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/rigged/front_rig.front_rig
+[2018.11.21-04.22.23:046][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.22.23:146][611]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.22.23:160][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.22.23:161][611]PIE: New page: PIE session: test (Nov 20, 2018, 6:22:23 PM)
+[2018.11.21-04.22.23:161][611]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.22.23:163][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002009s)
+[2018.11.21-04.22.23:164][611]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.22.23:164][611]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.11.21-04.22.23:164][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003146s)
+[2018.11.21-04.22.23:246][611]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.22.23:259][611]LogInit: FAudioDevice initialized.
+[2018.11.21-04.22.23:291][611]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.22.23:295][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.22.23
+[2018.11.21-04.22.23:295][611]LogWorld: Bringing up level for play took: 0.001241
+[2018.11.21-04.22.23:308][611]Cmd: pxvis collision 1
+[2018.11.21-04.22.23:308][611]Flag set.
+[2018.11.21-04.22.23:308][611]Num Actors: 29
+[2018.11.21-04.22.23:308][611]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.21
+[2018.11.21-04.22.36:598][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.22.36:634][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.22.36:661][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.22.36:704][204]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2018.11.21-04.22.37:693][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.29.11:426][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.29.11:525][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.21-04.29.11:578][955]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testB4CD62614454E67F733011A653B2BE47.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.11.21-04.29.11:604][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset" SILENT=true
+[2018.11.21-04.29.11:631][955]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/test_BuiltDataA963825C4545D7E58BFE43B83103F8D3.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test_BuiltData.uasset'
+[2018.11.21-04.29.12:190][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.29.12:290][ 33]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.29.12:304][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.29.12:304][ 33]PIE: New page: PIE session: test (Nov 20, 2018, 6:29:12 PM)
+[2018.11.21-04.29.12:304][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.11.21-04.29.12:306][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001929s)
+[2018.11.21-04.29.12:307][ 33]LogAIModule: Creating AISystem for world test
+[2018.11.21-04.29.12:307][ 33]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2018.11.21-04.29.12:307][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002988s)
+[2018.11.21-04.29.12:354][ 33]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.29.12:368][ 33]LogInit: FAudioDevice initialized.
+[2018.11.21-04.29.12:401][ 33]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.11.21-04.29.12:405][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.11.20-23.29.12
+[2018.11.21-04.29.12:405][ 33]LogWorld: Bringing up level for play took: 0.001236
+[2018.11.21-04.29.12:418][ 33]Cmd: pxvis collision 1
+[2018.11.21-04.29.12:418][ 33]Flag set.
+[2018.11.21-04.29.12:418][ 33]Num Actors: 29
+[2018.11.21-04.29.12:418][ 33]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.681
+[2018.11.21-04.29.16:643][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.29.16:680][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.29.16:706][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.29.16:743][540]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2018.11.21-04.29.17:948][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.33.42:786][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.34.04:071][701]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\WORK\385\project\rigged_CRAP.FBX)
+[2018.11.21-04.34.04:117][701]LogFbx: Loading FBX Scene from D:\WORK\385\project\rigged_CRAP.FBX
+[2018.11.21-04.34.04:477][701]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.21-04.34.06:693][701]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.21-04.34.06:711][701]LogFbx: =================================================
+[2018.11.21-04.34.06:711][701]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.34.06:711][701]LogFbx: 	Total Deformer Count 1458976256.
+[2018.11.21-04.34.06:711][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:711][701]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.34.06:711][701]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.34.06:711][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [RL] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] RL (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [RL]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [RR] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] RR (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [RR]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [FR] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] FR (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [FR]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [FL] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] FL (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [FL]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [bottom_tug001] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1458976256.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] bottom_tug001 (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [bottom_tug001]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [RL] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:712][701]LogFbx: 		[Node Attribute Child 1] RL (Type Mesh).
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node END [RL]
+[2018.11.21-04.34.06:712][701]LogFbx: =================================================
+[2018.11.21-04.34.06:712][701]LogFbx: Dumping Node START [RR] 
+[2018.11.21-04.34.06:712][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:712][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] RR (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [RR]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [FR] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] FR (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [FR]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [FL] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] FL (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [FL]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [RL] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] RL (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [RL]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [RR] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] RR (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [RR]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [FR] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] FR (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [FR]
+[2018.11.21-04.34.06:713][701]LogFbx: =================================================
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node START [FL] 
+[2018.11.21-04.34.06:713][701]LogFbx: 	Total Deformer Count 1301219760.
+[2018.11.21-04.34.06:713][701]LogFbx: 	Attribute () Type (4).
+[2018.11.21-04.34.06:713][701]LogFbx: 		[Node Attribute Child 1] FL (Type Mesh).
+[2018.11.21-04.34.06:713][701]LogFbx: Dumping Node END [FL]
+[2018.11.21-04.34.07:475][701]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 2
+[2018.11.21-04.34.35:730][701]LogSkeletalMesh: Section 0: 309747 vertices, 5 active bones
+[2018.11.21-04.34.35:788][701]LogSkeletalMesh: Section 0: Material=0, 483622 triangles
+[2018.11.21-04.34.35:797][701]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.34.36:912][701]LogSkeletalMesh: Built Skeletal Mesh [1.12s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.34.37:063][701]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.34.38:241][701]LogSkeletalMesh: Built Skeletal Mesh [1.18s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.34.38:298][701]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.21-04.34.38:301][701]LogSkeletalMesh: Building Skeletal Mesh rigged_CRAP...
+[2018.11.21-04.34.39:368][701]LogSkeletalMesh: Built Skeletal Mesh [1.07s] /Game/Vehicle/crap/rigged_CRAP.rigged_CRAP
+[2018.11.21-04.37.13:004][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.37.13:976][ 27]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Vehicle/crap/rigged_CRAP_PhysicsAsset.rigged_CRAP_PhysicsAsset
+[2018.11.21-04.37.14:018][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.11.21-04.37.16:646][242]LogSlate: Window 'rigged_CRAP_PhysicsAsset*' being destroyed
+[2018.11.21-04.37.20:345][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-04.37.20:349][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2018.11.21-04.37.38:310][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicle/crap/rigged_CRAP_PhysicsAsset" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset" SILENT=true
+[2018.11.21-04.37.38:324][644]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_CRAP_PhysicsAsset591D4AE34C67A7AE86A26792BA8AF8E4.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset'
+[2018.11.21-04.38.03:467][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicle/crap/rigged_CRAP_PhysicsAsset" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset" SILENT=true
+[2018.11.21-04.38.03:477][539]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_CRAP_PhysicsAsset92583F704ABE30CC4877F2972C6812D0.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset'
+[2018.11.21-04.38.24:287][558]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Vehicle/rigged/rigged_animBP.rigged_animBP
+[2018.11.21-04.38.24:305][558]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-04.38.24:520][558]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.21-04.38.33:315][427]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Vehicle/crap/crap_animBP.crap_animBP
+[2018.11.21-04.38.33:332][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.21-04.38.33:546][427]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.21-04.38.35:470][615]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.21-04.38.36:921][785]LogBlueprint: Warning: Reparenting blueprint AnimBlueprint /Game/Vehicle/crap/crap_animBP.crap_animBP from AnimInstance to VehicleAnimInstance...
+[2018.11.21-04.38.36:925][785]BlueprintLog: New page: Compile crap_animBP
+[2018.11.21-04.38.42:939][432]BlueprintLog: New page: Compile crap_animBP
+[2018.11.21-04.38.43:675][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicle/crap/crap_animBP" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/crap_animBP.uasset" SILENT=true
+[2018.11.21-04.38.43:693][481]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/crap_animBP3729ADE440CC79ABC7A9F79507EB06DE.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/crap_animBP.uasset'
+[2018.11.21-04.38.51:105][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicle/crap/rigged_CRAP_PhysicsAsset" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset" SILENT=true
+[2018.11.21-04.38.51:113][331]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/rigged_CRAP_PhysicsAssetD9A7C4CE43CFB2997EC38781BF18CFBC.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Vehicle/crap/rigged_CRAP_PhysicsAsset.uasset'
+[2018.11.21-04.39.15:645][388]Cmd: TRANSACTION UNDO
+[2018.11.21-04.39.15:645][388]LogEditorTransaction: Undo Create Pin Link
+[2018.11.21-04.39.17:035][388]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.389 s
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: 
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: 
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: Stack: 
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc0c0471f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc0bd80c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc0bd9b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc0911f1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070a4c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070d01fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070b6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc07122dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc07169b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070fc81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070b599c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc070af5d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc0798da43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffbf6e077ce UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffbf6e07bee UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc083b24df UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc083f437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffbf6e171a2 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffbf6e07679 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc083f60e9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc083e9846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc33e7ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc33e70270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc33e7f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc33e6c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc71f16cc1 USER32.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc71f16693 USER32.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc33e80646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ff6831b54e5 UE4Editor.exe!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ff6831c5b3c UE4Editor.exe!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ff6831c5bba UE4Editor.exe!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ff6831d3dac UE4Editor.exe!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ff6831d5aaa UE4Editor.exe!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc72213034 KERNEL32.DLL!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: [Callstack] 0x00007ffc73bb1461 ntdll.dll!UnknownFunction []
+[2018.11.21-04.39.17:035][388]LogOutputDevice: Error: 
+[2018.11.21-04.39.17:041][388]LogStats:                SubmitErrorReport -  0.001 s
