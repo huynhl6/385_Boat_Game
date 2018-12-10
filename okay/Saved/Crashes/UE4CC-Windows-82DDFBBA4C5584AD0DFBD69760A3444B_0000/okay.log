@@ -1,0 +1,780 @@
+﻿Log file open, 12/10/18 02:31:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: okay
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.274379
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.108s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.10-07.31.35:285][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-07.31.35:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.10-07.31.35:297][  0]LogHAL: Display: Platform has ~ 16 GB [17105747968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.10-07.31.35:297][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.10-07.31.35:297][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.10-07.31.35:297][  0]LogInit: Computer: MUTHAFKNPC
+[2018.12.10-07.31.35:297][  0]LogInit: User: lochu
+[2018.12.10-07.31.35:297][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.10-07.31.35:297][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2018.12.10-07.31.35:298][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.10-07.31.35:298][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.10-07.31.35:298][  0]LogMemory: Process Physical Memory: 102.67 MB used, 102.67 MB peak
+[2018.12.10-07.31.35:298][  0]LogMemory: Process Virtual Memory: 99.58 MB used, 99.58 MB peak
+[2018.12.10-07.31.35:298][  0]LogMemory: Physical Memory: 9500.09 MB used,  6813.23 MB free, 16313.31 MB total
+[2018.12.10-07.31.35:298][  0]LogMemory: Virtual Memory: 4644.06 MB used,  6813.23 MB free, 134217728.00 MB total
+[2018.12.10-07.31.35:316][  0]LogInit: Using OS detected language (en-US).
+[2018.12.10-07.31.35:316][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.10-07.31.35:317][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.10-07.31.35:677][  0]LogStreaming: Display: Took  0.361s to InitEngineTextLocalization.
+[2018.12.10-07.31.35:677][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.10-07.31.35:706][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.10-07.31.35:706][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.10-07.31.35:895][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-07.31.35:895][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.10-07.31.35:947][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.12.10-07.31.35:947][  0]LogD3D11RHI:       4043/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.10-07.31.35:949][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.10-07.31.35:949][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.10-07.31.35:949][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.10-07.31.35:958][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.10-07.31.35:958][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.10-07.31.35:958][  0]LogWindows: EnumDisplayDevices:
+[2018.12.10-07.31.35:958][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.12.10-07.31.35:959][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.12.10-07.31.35:959][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.10-07.31.35:959][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.12.10-07.31.35:959][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.10-07.31.35:959][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.12.10-07.31.35:959][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2018.12.10-07.31.35:959][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2018.12.10-07.31.35:959][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.12.10-07.31.35:994][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.10-07.31.36:011][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.10-07.31.36:061][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../WORK/385/project/385_Boat_Game/okay/Intermediate/Shaders/WorkingDirectory/21720/).
+[2018.12.10-07.31.36:061][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lochu/AppData/Local/Temp/UnrealShaderWorkingDir/A46ECED44F1D711DB5904E8DC94DBC36/'.
+[2018.12.10-07.31.36:331][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.10-07.31.36:342][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.10-07.31.36:355][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.10-07.31.36:366][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.10-07.31.36:378][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.10-07.31.36:393][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.10-07.31.36:405][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.10-07.31.36:419][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.10-07.31.36:424][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-07.31.36:498][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.10-07.31.36:556][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-07.31.36:556][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-07.31.36:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-07.31.36:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-07.31.36:590][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.10-07.31.36:601][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.10-07.31.36:613][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.10-07.31.36:624][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.10-07.31.36:634][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.10-07.31.36:634][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.10-07.31.36:680][  0]LogXGEController: Cleaning working directory: C:/Users/lochu/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.10-07.31.36:680][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.10-07.31.36:680][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.10-07.31.36:680][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.10-07.31.37:344][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.10-07.31.37:396][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-07.31.37:396][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.10-07.31.37:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../WORK/385/project/385_Boat_Game/okay/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.10-07.31.37:397][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.10-07.31.37:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../WORK/385/project/385_Boat_Game/okay/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.10-07.31.37:397][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.10-07.31.37:410][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.10-07.31.37:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lochu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.10-07.31.37:423][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.10-07.31.37:423][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.10-07.31.37:440][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.10-07.31.37:441][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.10-07.31.37:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.10-07.31.37:514][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.12.10-07.31.37:817][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-07.31.37:868][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.10-07.31.37:871][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.10-07.31.37:871][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.10-07.31.37:871][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.10-07.31.37:871][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.10-07.31.37:969][  0]LogNetVersion: okay 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1209445407)
+[2018.12.10-07.31.38:453][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.100478 seconds
+[2018.12.10-07.31.38:460][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.10-07.31.38:460][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.10-07.31.38:460][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.10-07.31.39:268][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.10-07.31.39:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.10-07.31.39:423][  0]SourceControl: Source control is disabled
+[2018.12.10-07.31.39:423][  0]SourceControl: Source control is disabled
+[2018.12.10-07.31.39:424][  0]SourceControl: Source control is disabled
+[2018.12.10-07.31.39:425][  0]SourceControl: Source control is disabled
+[2018.12.10-07.31.39:583][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.10-07.31.39:696][  0]LogOcInput: OculusInput pre-init called
+[2018.12.10-07.31.39:751][  0]LogEngine: Initializing Engine...
+[2018.12.10-07.31.39:752][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-07.31.39:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-07.31.39:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-07.31.39:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-07.31.39:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-07.31.39:952][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.10-07.31.39:963][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.10-07.31.39:994][  0]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.31.40:156][  0]LogInit: FAudioDevice initialized.
+[2018.12.10-07.31.40:156][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.10-07.31.40:282][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/lochu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-07.31.40:292][  0]LogInit: Texture streaming: Enabled
+[2018.12.10-07.31.40:307][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.10-07.31.40:307][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5E7D5713-4581-30D7-B001-FFB304D58221}
+[2018.12.10-07.31.40:319][  0]LogInit: Transaction tracking system initialized
+[2018.12.10-07.31.40:335][  0]BlueprintLog: New page: Editor Load
+[2018.12.10-07.31.40:392][  0]LocalizationService: Localization service is disabled
+[2018.12.10-07.31.40:618][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.10-07.31.40:618][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.10-07.31.40:618][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.10-07.31.40:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-07.31.40:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-07.31.40:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-07.31.40:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-07.31.40:722][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/' took 0.01s
+[2018.12.10-07.31.40:722][  0]SourceControl: Source control is disabled
+[2018.12.10-07.31.40:722][  0]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-07.31.40:723][  0]LightingResults: New page: Lighting Build
+[2018.12.10-07.31.40:725][  0]MapCheck: New page: Map Check
+[2018.12.10-07.31.40:725][  0]LightingResults: New page: Lighting Build
+[2018.12.10-07.31.41:656][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.31.41:814][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-07.31.41:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-07.31.41:892][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.428ms to complete.
+[2018.12.10-07.31.41:892][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 1.169
+[2018.12.10-07.31.42:005][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.31.42:012][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.31.42:020][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.31.42:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.31.42:031][  0]LogCollectionManager: Loaded 0 collections in 0.000974 seconds
+[2018.12.10-07.31.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Saved/Collections/' took 0.01s
+[2018.12.10-07.31.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/Developers/lochu/Collections/' took 0.01s
+[2018.12.10-07.31.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/385/project/385_Boat_Game/okay/Content/Collections/' took 0.01s
+[2018.12.10-07.31.42:075][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.10-07.31.42:083][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2574 classes and 606 folders.
+[2018.12.10-07.31.42:088][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.10-07.31.42:126][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.10-07.31.42:130][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.10-07.31.42:387][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-07.31.42:389][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-07.31.42:394][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-07.31.42:478][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2018.12.10-07.31.42:605][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.10-07.31.42:605][  0]LogLoad: (Engine Initialization) Total time: 8.75 seconds
+[2018.12.10-07.31.42:605][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.10-07.31.42:622][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.12.10-07.31.42:622][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2018.12.10-07.31.42:622][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2018.12.10-07.31.42:622][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2018.12.10-07.31.42:622][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2018.12.10-07.31.42:648][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.10-07.31.42:694][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-07.31.42:720][  1]LogAssetRegistry: Asset discovery search completed in 5.2282 seconds
+[2018.12.10-07.31.42:722][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.10-07.31.42:722][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.12.10-07.31.44:052][  5]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-07.32.20:577][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-07.32.25:870][883]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/GameOver.GameOver
+[2018.12.10-07.32.26:277][883]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.12.10-07.32.26:956][883]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-07.32.30:715][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameOver" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset" SILENT=true
+[2018.12.10-07.32.30:727][318]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/GameOverE16BF28E42DD29A81AEC17B626B0DFA8.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset'
+[2018.12.10-07.32.35:867][931]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VehicleBP/corret/correct.correct
+[2018.12.10-07.32.38:932][249]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.10-07.33.42:809][719]BlueprintLog: New page: Compile correct
+[2018.12.10-07.40.02:552][792]BlueprintLog: New page: Compile correct
+[2018.12.10-07.40.02:575][792]LogBlueprint: Error: [Compiler correct] The type of  Object  is undetermined.  Connect something to  Cast To GameOver  to imply a specific type.
+[2018.12.10-07.40.02:576][792]LogBlueprint: Error: [Compiler correct] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.12.10-07.40.02:791][792]LogBlueprint: Warning: [Compiler correct] [0508.94] Compile of correct failed. 2 Fatal Issue(s) 0 Warning(s) [in 239 ms] (/Game/VehicleBP/corret/correct.correct)
+[2018.12.10-07.40.03:289][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-07.40.03:333][842]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct033F43C748117186B7B6E0BC20DFBE02.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-07.40.51:542][498]BlueprintLog: New page: Compile correct
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameOver_C_5.WidgetTree_0.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Fuel.Fuel_C:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Addcoin.Addcoin:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:GameOver_C_4.WidgetTree_0.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Addcoin.Addcoin_C:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/GameOver.GameOver:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/GameOver.SKEL_GameOver_C:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:176][310]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/GameOver.GameOver_C:WidgetTree.CanvasPanel_0
+[2018.12.10-07.41.26:185][310]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/Fuel.Fuel:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2018.12.10-07.41.26:185][310]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_1"''
+[2018.12.10-07.42.14:863][787]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/MMwidget.MMwidget
+[2018.12.10-07.43.08:317][725]BlueprintLog: New page: Compile GameOver
+[2018.12.10-07.43.08:816][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameOver" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset" SILENT=true
+[2018.12.10-07.43.08:853][775]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/GameOver2BBC1C974E3DC83E0F2300ACB7638FA7.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset'
+[2018.12.10-07.44.46:193][235]BlueprintLog: New page: Compile correct
+[2018.12.10-07.45.47:990][119]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMap_Auto1D1A5F583430B1215A9467C95BA61CB52.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto1.umap'
+[2018.12.10-07.45.48:016][119]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 1.281
+[2018.12.10-07.45.48:016][119]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.281
+[2018.12.10-07.45.48:019][119]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/corret/correct] ([1] browsable assets)...
+[2018.12.10-07.45.48:053][119]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/corret/correct.correct]
+[2018.12.10-07.45.48:053][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/corret/correct]
+[2018.12.10-07.45.48:053][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/VehicleBP/corret/correct_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.12.10-07.45.48:108][119]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct_Auto17E599CC1433B6A92A4C6798824EF341D.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Saved/Autosaves/Game/VehicleBP/corret/correct_Auto1.uasset'
+[2018.12.10-07.45.48:111][119]LogFileHelpers: Auto-saving content packages took 0.093
+[2018.12.10-07.46.38:150][506]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.10-07.48.55:560][706]BlueprintLog: New page: Compile correct
+[2018.12.10-07.48.55:582][706]LogBlueprint: Error: [Compiler correct] Spawn node  Create Widget  must have a class specified.
+[2018.12.10-07.48.55:775][706]LogBlueprint: Warning: [Compiler correct] [1041.92] Compile of correct failed. 1 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/VehicleBP/corret/correct.correct)
+[2018.12.10-07.48.58:705][ 49]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.10-07.49.02:339][477]BlueprintLog: New page: Compile correct
+[2018.12.10-07.51.03:915][273]BlueprintLog: New page: Compile correct
+[2018.12.10-07.51.11:106][ 96]BlueprintLog: New page: Compile correct
+[2018.12.10-07.52.50:742][208]BlueprintLog: New page: Compile correct
+[2018.12.10-07.52.51:993][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-07.52.52:035][324]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct61DC22254D97E59304513BA1B3616EDF.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-07.53.22:848][828]LogAssetEditorManager: Opening Asset editor for World /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap
+[2018.12.10-07.53.24:266][828]LogSlate: Window 'Save Content' being destroyed
+[2018.12.10-07.53.25:249][828]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMap901720314B5931BFE8A91ABE6DBFE5B4.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.12.10-07.53.25:289][828]LogFileHelpers: Saving map 'VehicleExampleMap' took 1.015
+[2018.12.10-07.53.25:292][828]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-07.53.25:292][828]LightingResults: New page: Lighting Build
+[2018.12.10-07.53.25:292][828]LoadErrors: New page: Loading map: VehicleExampleMap.umap
+[2018.12.10-07.53.25:326][828]MapCheck: New page: Map Check
+[2018.12.10-07.53.25:326][828]LightingResults: New page: Lighting Build
+[2018.12.10-07.53.25:603][828]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.53.26:169][828]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-07.53.26:232][828]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-07.53.26:283][828]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.559ms to complete.
+[2018.12.10-07.53.26:286][828]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.996
+[2018.12.10-07.53.28:994][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.28:995][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading ../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap.
+[2018.12.10-07.53.28:995][136]LoadErrors: Error: /Game/Maps/test : Can't find file for asset. /Game/boat_1try/boat_try1
+[2018.12.10-07.53.29:123][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:123][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading ../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap.
+[2018.12.10-07.53.29:145][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:145][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading ../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap.
+[2018.12.10-07.53.29:146][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:146][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading ../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap.
+[2018.12.10-07.53.29:146][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:146][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading ../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap.
+[2018.12.10-07.53.29:147][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:147][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading NULL.
+[2018.12.10-07.53.29:147][136]LogLinker: Warning: Can't find file '/Game/boat_1try/boat_try1'
+[2018.12.10-07.53.29:147][136]LogLinker: Warning: Can't find file for asset '/Game/boat_1try/boat_try1' while loading NULL.
+[2018.12.10-07.53.29:252][136]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.53.29:260][136]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/test.test
+[2018.12.10-07.53.29:305][136]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-07.53.29:305][136]LightingResults: New page: Lighting Build
+[2018.12.10-07.53.29:305][136]LoadErrors: New page: Loading map: test.umap
+[2018.12.10-07.53.29:308][136]MapCheck: New page: Map Check
+[2018.12.10-07.53.29:308][136]LightingResults: New page: Lighting Build
+[2018.12.10-07.53.29:516][136]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-07.53.29:576][136]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-07.53.29:628][136]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.815ms to complete.
+[2018.12.10-07.53.29:628][136]LogFileHelpers: Loading map 'test' took 0.324
+[2018.12.10-07.53.29:662][136]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'VehicleMesh': boat_try1_C /Game/Maps/test.test:PersistentLevel.boat_try1_2
+[2018.12.10-07.53.29:662][136]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'MovementComp': boat_try1_C /Game/Maps/test.test:PersistentLevel.boat_try1_2
+[2018.12.10-07.53.30:824][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.53.30:905][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.53.30:975][267]PIE: New page: PIE session: test (Dec 9, 2018, 9:53:30 PM)
+[2018.12.10-07.53.30:981][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.53.31:022][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040178s)
+[2018.12.10-07.53.31:022][267]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.53.31:023][267]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2018.12.10-07.53.31:023][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.041479s)
+[2018.12.10-07.53.31:072][267]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.53.31:090][267]LogInit: FAudioDevice initialized.
+[2018.12.10-07.53.31:147][267]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.53.31:213][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.53.31
+[2018.12.10-07.53.31:234][267]LogWorld: Bringing up level for play took: 0.076892
+[2018.12.10-07.53.31:394][267]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.12.10-07.53.31:475][267]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 1.376
+[2018.12.10-07.53.35:096][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.53.35:179][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.53.35:235][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.53.35:274][626]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.10-07.53.36:911][822]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.53.36:932][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.53.36:933][822]PIE: New page: PIE session: test (Dec 9, 2018, 9:53:36 PM)
+[2018.12.10-07.53.36:933][822]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.53.36:935][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002058s)
+[2018.12.10-07.53.36:935][822]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.53.36:936][822]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.12.10-07.53.36:936][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.003007s)
+[2018.12.10-07.53.36:989][822]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.53.37:007][822]LogInit: FAudioDevice initialized.
+[2018.12.10-07.53.37:034][822]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.53.37:038][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.53.37
+[2018.12.10-07.53.37:038][822]LogWorld: Bringing up level for play took: 0.001026
+[2018.12.10-07.53.37:052][822]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test 0.953
+[2018.12.10-07.53.38:922][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.53.38:955][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.53.38:987][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.53.39:022][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.10-07.53.56:335][101]BlueprintLog: New page: Compile correct
+[2018.12.10-07.53.57:186][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-07.53.57:222][169]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct910296F84D6884FC26929096D61518C9.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-07.53.59:094][393]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.53.59:125][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.53.59:125][393]PIE: New page: PIE session: test (Dec 9, 2018, 9:53:59 PM)
+[2018.12.10-07.53.59:125][393]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.53.59:127][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001790s)
+[2018.12.10-07.53.59:128][393]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.53.59:128][393]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2018.12.10-07.53.59:128][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002787s)
+[2018.12.10-07.53.59:178][393]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.53.59:197][393]LogInit: FAudioDevice initialized.
+[2018.12.10-07.53.59:226][393]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.53.59:228][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.53.59
+[2018.12.10-07.53.59:229][393]LogWorld: Bringing up level for play took: 0.000954
+[2018.12.10-07.53.59:242][393]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.857
+[2018.12.10-07.54.02:576][785]Cmd: r.setres 1920x1080
+[2018.12.10-07.54.02:730][785]r.SetRes = "1920x1080"
+[2018.12.10-07.54.03:946][931]Cmd: r.setres 640x480
+[2018.12.10-07.54.03:947][931]r.SetRes = "640x480"
+[2018.12.10-07.54.05:368][101]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.05:377][101]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.07:173][101]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.54.07:173][101]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-07.54.07:195][101]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2018.12.10-07.54.07:195][101]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-02.54.07
+[2018.12.10-07.54.07:195][101]LogWorld: Bringing up level for play took: 0.019580
+[2018.12.10-07.54.07:196][101]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.54.07:208][101]LogLoad: Took 1.830864 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2018.12.10-07.54.09:305][330]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.09:305][330]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.09:813][330]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.54.09:813][330]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-07.54.09:829][330]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2018.12.10-07.54.09:829][330]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-02.54.09
+[2018.12.10-07.54.09:829][330]LogWorld: Bringing up level for play took: 0.013793
+[2018.12.10-07.54.09:830][330]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.54.09:832][330]LogLoad: Took 0.526884 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2018.12.10-07.54.10:489][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.54.10:526][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.54.10:555][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.54.10:593][407]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.10-07.54.12:834][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-07.54.46:197][618]BlueprintLog: New page: Compile correct
+[2018.12.10-07.54.46:761][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-07.54.46:796][650]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct4D474C4144F5280817394CB6EBCB01D2.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-07.54.51:520][207]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.54.51:551][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.54.51:551][207]PIE: New page: PIE session: test (Dec 9, 2018, 9:54:51 PM)
+[2018.12.10-07.54.51:551][207]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.54.51:553][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001810s)
+[2018.12.10-07.54.51:553][207]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.54.51:554][207]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.12.10-07.54.51:554][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002805s)
+[2018.12.10-07.54.51:603][207]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.54.51:619][207]LogInit: FAudioDevice initialized.
+[2018.12.10-07.54.51:652][207]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.54.51:656][207]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.54.51
+[2018.12.10-07.54.51:657][207]LogWorld: Bringing up level for play took: 0.001205
+[2018.12.10-07.54.51:672][207]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.428
+[2018.12.10-07.54.53:854][463]Cmd: r.setres 1920x1080
+[2018.12.10-07.54.53:854][463]r.SetRes = "1920x1080"
+[2018.12.10-07.54.54:229][508]Cmd: r.setres 640x480
+[2018.12.10-07.54.54:230][508]r.SetRes = "640x480"
+[2018.12.10-07.54.55:224][627]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.55:224][627]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.54.55:730][627]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.54.55:730][627]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-07.54.55:748][627]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2018.12.10-07.54.55:749][627]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-02.54.55
+[2018.12.10-07.54.55:749][627]LogWorld: Bringing up level for play took: 0.015430
+[2018.12.10-07.54.55:749][627]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.54.55:750][627]LogLoad: Took 0.526217 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2018.12.10-07.55.03:275][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.55.03:315][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.55.03:345][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.55.03:390][521]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.10-07.55.03:993][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-07.57.12:411][733]BlueprintLog: New page: Compile correct
+[2018.12.10-07.57.13:163][793]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.57.13:191][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.57.13:192][793]PIE: New page: PIE session: test (Dec 9, 2018, 9:57:13 PM)
+[2018.12.10-07.57.13:192][793]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.57.13:193][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001748s)
+[2018.12.10-07.57.13:194][793]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.57.13:194][793]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.12.10-07.57.13:194][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002658s)
+[2018.12.10-07.57.13:237][793]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.57.13:255][793]LogInit: FAudioDevice initialized.
+[2018.12.10-07.57.13:267][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.57.13:308][793]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.57.13:312][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.57.13
+[2018.12.10-07.57.13:312][793]LogWorld: Bringing up level for play took: 0.001698
+[2018.12.10-07.57.13:324][793]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.57.13:328][793]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.772
+[2018.12.10-07.57.13:369][793]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.12.10-07.57.16:744][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.57.16:760][182]LogSlate: Window 'okay Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.10-07.57.16:797][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.57.16:856][183]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.10-07.57.17:659][279]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-07.57.17:686][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-07.57.17:686][279]PIE: New page: PIE session: test (Dec 9, 2018, 9:57:17 PM)
+[2018.12.10-07.57.17:686][279]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_test
+[2018.12.10-07.57.17:688][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001824s)
+[2018.12.10-07.57.17:689][279]LogAIModule: Creating AISystem for world test
+[2018.12.10-07.57.17:689][279]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.12.10-07.57.17:689][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/test.test to /Game/Maps/UEDPIE_0_test.test (0.002617s)
+[2018.12.10-07.57.17:736][279]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-07.57.17:755][279]LogInit: FAudioDevice initialized.
+[2018.12.10-07.57.17:766][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.57.17:808][279]LogLoad: Game class is 'MainMenuLvL_C'
+[2018.12.10-07.57.17:811][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_test.test up for play (max tick rate 0) at 2018.12.10-02.57.17
+[2018.12.10-07.57.17:811][279]LogWorld: Bringing up level for play took: 0.001469
+[2018.12.10-07.57.17:823][279]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.57.17:827][279]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_test -0.272
+[2018.12.10-07.57.18:786][384]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.57.18:786][384]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap
+[2018.12.10-07.57.19:276][384]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-07.57.19:276][384]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-07.57.19:293][384]PIE: Warning: Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2018.12.10-07.57.19:294][384]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-02.57.19
+[2018.12.10-07.57.19:294][384]LogWorld: Bringing up level for play took: 0.014285
+[2018.12.10-07.57.19:294][384]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.10-07.57.19:296][384]LogLoad: Took 0.509343 seconds to LoadMap(/Game/VehicleBP/Maps/VehicleExampleMap)
+[2018.12.10-07.57.37:152][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-07.57.37:169][506]LogSlate: Window 'okay Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.10-07.57.37:205][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-07.57.37:268][507]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.12.10-07.58.03:531][633]BlueprintLog: New page: Compile correct
+[2018.12.10-07.58.04:037][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-07.58.04:099][658]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correctF6E4BE724F574BA148FF55A86BFF2EC6.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-07.59.11:056][748]BlueprintLog: New page: Compile correct
+[2018.12.10-07.59.42:312][404]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.10-08.00.15:825][325]BlueprintLog: New page: Compile correct
+[2018.12.10-08.00.22:136][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.00.22:560][ 56]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-08.00.22:600][ 56]LogAssetEditorManager: Opening Asset editor for World /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap
+[2018.12.10-08.00.24:271][ 56]LogSlate: Window 'Save Content' being destroyed
+[2018.12.10-08.00.24:336][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/test" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.10-08.00.24:402][ 56]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/testE1C5C3A74C369C1AED97A986A879A9DD.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/Maps/test.umap'
+[2018.12.10-08.00.24:436][ 56]LogFileHelpers: Saving map 'test' took 0.159
+[2018.12.10-08.00.24:449][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-08.00.24:498][ 56]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correct7614178243A7DF8010E4DAB08633551E.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-08.00.24:502][ 56]Cmd: MAP LOAD FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-08.00.24:502][ 56]LightingResults: New page: Lighting Build
+[2018.12.10-08.00.24:503][ 56]LoadErrors: New page: Loading map: VehicleExampleMap.umap
+[2018.12.10-08.00.24:504][ 56]MapCheck: New page: Map Check
+[2018.12.10-08.00.24:504][ 56]LightingResults: New page: Lighting Build
+[2018.12.10-08.00.25:046][ 56]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-08.00.25:105][ 56]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-08.00.25:159][ 56]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.657ms to complete.
+[2018.12.10-08.00.25:159][ 56]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.658
+[2018.12.10-08.00.29:995][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.00.47:369][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.00.59:228][847]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.10-08.01.00:153][935]LogEditorViewport: Clicking on Actor (LMB): coin_C (coin5)
+[2018.12.10-08.01.03:286][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.01.12:607][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.01.13:671][383]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMapB8979B7144F2E4ECB67C0DB443F282A4.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.12.10-08.01.13:709][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset" SILENT=true
+[2018.12.10-08.01.14:859][383]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMap_BuiltData74DFC7484014589B43051C8617BF4EF4.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset'
+[2018.12.10-08.01.15:450][452]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-08.01.15:503][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.01.15:503][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-08.01.15:503][452]PIE: New page: PIE session: VehicleExampleMap (Dec 9, 2018, 10:01:15 PM)
+[2018.12.10-08.01.15:503][452]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.12.10-08.01.15:575][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072243s)
+[2018.12.10-08.01.15:576][452]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-08.01.15:576][452]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2018.12.10-08.01.15:576][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.073935s)
+[2018.12.10-08.01.15:632][452]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-08.01.15:651][452]LogInit: FAudioDevice initialized.
+[2018.12.10-08.01.15:685][452]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-08.01.15:712][452]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-03.01.15
+[2018.12.10-08.01.15:713][452]LogWorld: Bringing up level for play took: 0.023797
+[2018.12.10-08.01.15:727][452]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.373
+[2018.12.10-08.01.15:727][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.01.25:020][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.01.25:020][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.01.25:055][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-08.01.25:055][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.01.25:086][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.01.25:119][557]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.12.10-08.01.25:859][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.02.29:304][680]BlueprintLog: New page: Compile correct
+[2018.12.10-08.02.29:921][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-08.02.29:955][718]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correctF311A17A4B2E65CA6E7D2F91CCC40006.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-08.03.02:697][506]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Geometry/collectables/Gold_Coin.Gold_Coin
+[2018.12.10-08.03.03:971][507]LogRenderer: Reallocating scene render targets to support 1292x812 Format 10 NumSamples 1 (Frame:1).
+[2018.12.10-08.03.08:954][942]LogSlate: Window 'Gold_Coin' being destroyed
+[2018.12.10-08.03.08:958][942]LogSlate: Window 'Gold_Coin' being destroyed
+[2018.12.10-08.03.10:319][ 86]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Geometry/collectables/coin.coin
+[2018.12.10-08.03.48:621][ 96]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/GameOver.GameOver
+[2018.12.10-08.05.28:661][605]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.10-08.06.16:575][ 42]BlueprintLog: New page: Compile correct
+[2018.12.10-08.06.17:304][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-08.06.17:370][ 94]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correctE017CBDD45B4665590FF6C9B48127B40.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-08.06.37:542][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.06.38:601][  2]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMap7E6A773F408AA10EB3C84FB97F72AC6D.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2018.12.10-08.06.38:641][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Maps/VehicleExampleMap_BuiltData" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset" SILENT=true
+[2018.12.10-08.06.39:765][  2]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/VehicleExampleMap_BuiltDataA09BC299469A094DC54021B3410157A6.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset'
+[2018.12.10-08.06.40:201][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-08.06.40:231][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.06.40:231][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-08.06.40:231][ 53]PIE: New page: PIE session: VehicleExampleMap (Dec 9, 2018, 10:06:40 PM)
+[2018.12.10-08.06.40:231][ 53]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.12.10-08.06.40:283][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051661s)
+[2018.12.10-08.06.40:284][ 53]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-08.06.40:284][ 53]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.12.10-08.06.40:284][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.052722s)
+[2018.12.10-08.06.40:334][ 53]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-08.06.40:348][ 53]LogInit: FAudioDevice initialized.
+[2018.12.10-08.06.40:379][ 53]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-08.06.40:390][ 53]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-03.06.40
+[2018.12.10-08.06.40:391][ 53]LogWorld: Bringing up level for play took: 0.009160
+[2018.12.10-08.06.40:404][ 53]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.305
+[2018.12.10-08.06.40:404][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.06.56:692][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.06.56:692][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.06.56:730][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-08.06.56:730][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.06.56:764][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.06.56:794][  3]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.12.10-08.06.58:560][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.07.35:345][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-08.07.35:364][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.07.35:364][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-08.07.35:364][ 60]PIE: New page: PIE session: VehicleExampleMap (Dec 9, 2018, 10:07:35 PM)
+[2018.12.10-08.07.35:364][ 60]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2018.12.10-08.07.35:419][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055037s)
+[2018.12.10-08.07.35:420][ 60]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2018.12.10-08.07.35:420][ 60]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2018.12.10-08.07.35:421][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.056404s)
+[2018.12.10-08.07.35:472][ 60]LogInit: XAudio2 using 'Headset Earphone (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-08.07.35:486][ 60]LogInit: FAudioDevice initialized.
+[2018.12.10-08.07.35:515][ 60]LogLoad: Game class is 'VehicleGameMode_C'
+[2018.12.10-08.07.35:533][ 60]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2018.12.10-03.07.35
+[2018.12.10-08.07.35:533][ 60]LogWorld: Bringing up level for play took: 0.014542
+[2018.12.10-08.07.35:546][ 60]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.553
+[2018.12.10-08.07.35:546][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.07.54:423][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.07.54:424][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.07.54:462][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-08.07.54:462][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2018.12.10-08.07.54:492][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-08.07.54:524][319]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.12.10-08.07.55:289][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-08.08.16:539][219]LogEditorTransaction: Undo Move Widget
+[2018.12.10-08.08.23:297][879]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.23:298][879]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.23:302][879]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.23:302][879]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.23:304][879]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.24:470][997]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.24:471][997]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.24:475][997]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.24:476][997]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.24:477][997]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.26:254][182]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.26:255][182]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.26:259][182]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.26:259][182]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.26:260][182]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.27:790][335]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.27:792][335]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.27:795][335]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.27:796][335]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.27:797][335]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.28:326][380]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.28:327][380]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.28:330][380]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.28:330][380]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.28:332][380]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.30:227][567]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.30:229][567]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.30:232][567]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.30:233][567]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.30:234][567]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.31:183][658]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.31:184][658]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.31:188][658]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.31:188][658]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.31:189][658]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.47:431][358]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.47:433][358]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.47:437][358]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.47:437][358]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.47:438][358]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.51:075][714]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.51:076][714]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.51:079][714]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.51:079][714]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.51:081][714]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.51:709][765]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-08.08.51:711][765]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-08.08.51:714][765]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-08.08.51:715][765]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-08.08.51:716][765]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-08.08.55:474][147]BlueprintLog: New page: Compile GameOver
+[2018.12.10-08.08.55:992][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GameOver" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset" SILENT=true
+[2018.12.10-08.08.56:008][179]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/GameOver3AEDC33A4ECF822052D672852DBAF285.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/UI/GameOver.uasset'
+[2018.12.10-08.08.56:433][217]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.10-08.09.18:854][822]BlueprintLog: New page: Compile correct
+[2018.12.10-08.09.30:016][ 84]BlueprintLog: New page: Compile correct
+[2018.12.10-08.09.30:659][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/corret/correct" FILE="../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset" SILENT=true
+[2018.12.10-08.09.30:701][118]LogSavePackage: Moving '../../../../WORK/385/project/385_Boat_Game/okay/Saved/correctCA29B1974D0C8F6EB38C359E1B46A9DA.tmp' to '../../../../WORK/385/project/385_Boat_Game/okay/Content/VehicleBP/corret/correct.uasset'
+[2018.12.10-08.09.31:057][158]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
